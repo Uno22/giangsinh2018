@@ -1173,17 +1173,17 @@
     <entry producer="producer79" in="00:00:00.000" out="00:00:18.411"/>
     <entry producer="producer80" in="00:00:00.000" out="00:00:03.802"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:07:53.399">
-    <property name="length">14194</property>
+  <producer id="black" in="00:00:00.000" out="00:08:23.915">
+    <property name="length">15109</property>
     <property name="eof">pause</property>
-    <property name="resource">black</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\shortcut\giangsinh2018/black</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgb24</property>
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:07:53.399"/>
+    <entry producer="black" in="00:00:00.000" out="00:08:23.915"/>
   </playlist>
   <producer id="producer81" title="Anonymous Submission" in="00:00:00.000" out="00:00:15.576">
     <property name="length">468</property>
@@ -2821,9 +2821,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition69" out="00:00:02.235">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer143" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -2852,9 +2852,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition71" out="00:00:02.068">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer144" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -2972,9 +2972,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition75" out="00:00:02.168">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer150" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3003,9 +3003,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition77" out="00:00:01.734">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer151" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3047,9 +3047,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition79" out="00:00:01.701">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer153" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3078,9 +3078,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition81" out="00:00:01.601">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer154" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3109,9 +3109,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition83" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer155" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3140,9 +3140,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition85" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer156" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3171,9 +3171,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition87" out="00:00:02.135">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer157" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3202,9 +3202,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition89" out="00:00:01.834">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer158" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3233,9 +3233,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition91" out="00:00:02.068">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer159" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3264,9 +3264,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition93" out="00:00:02.135">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer160" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3295,9 +3295,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition95" out="00:00:02.235">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer161" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3326,9 +3326,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition97" out="00:00:02.768">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer162" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3357,9 +3357,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition99" out="00:00:02.168">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer163" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
@@ -3388,9 +3388,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition101" out="00:00:02.635">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer164" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.411">
@@ -3422,9 +3422,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition103" out="00:00:02.001">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer165" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.741">
@@ -3460,9 +3460,9 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <transition id="transition105" out="00:00:02.235">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer166" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.741">
@@ -3682,13 +3682,13 @@ Phát 3545</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
-    <filter id="filter9" in="00:00:07.972" out="00:00:42.826">
+    <filter id="filter9" in="00:00:07.972" out="00:00:41.959">
       <property name="argument">------- NHÓM TÌNH NGUYỆN NHỮNG ƯỚC MƠ XANH ------
 https://www.facebook.com/nhunguocmoxanh
 https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="geometry">0 0 1280 720 1</property>
       <property name="family">Verdana</property>
-      <property name="size">50</property>
+      <property name="size">33</property>
       <property name="weight">500</property>
       <property name="style">normal</property>
       <property name="fgcolour">#ffffffff</property>
@@ -3703,14 +3703,14 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="shotcut:usePointSize">1</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="shotcut:pointSize">30</property>
+      <property name="shotcut:pointSize">20</property>
       <property name="disable">0</property>
     </filter>
   </producer>
   <producer id="producer173" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/IMG_0631.jpg</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3718,12 +3718,12 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
     <property name="mlt_service">qimage</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">456045251c3a9c48bede1e1153455b4a</property>
-    <filter id="filter10" out="00:00:04.436">
-      <property name="argument">#timecode#</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter10" in="00:00:07.972" out="00:00:48.163">
+      <property name="argument">...</property>
       <property name="geometry">0 0 1280 720 1</property>
       <property name="family">Verdana</property>
-      <property name="size">720</property>
+      <property name="size">33</property>
       <property name="weight">500</property>
       <property name="style">normal</property>
       <property name="fgcolour">#ffffffff</property>
@@ -3735,9 +3735,46 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="outline">0</property>
       <property name="mlt_service">dynamictext</property>
       <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:usePointSize">1</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">20</property>
+      <property name="disable">0</property>
+    </filter>
+  </producer>
+  <producer id="producer174" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+    <property name="length">431738</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter11" in="00:00:07.972" out="00:01:32.820">
+      <property name="argument">HẬU CHƯƠNG TRÌNH</property>
+      <property name="geometry">0 0 1280 720 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">33</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">20</property>
+      <property name="disable">0</property>
     </filter>
   </producer>
   <playlist id="playlist0">
@@ -3882,36 +3919,10 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
     <entry producer="producer169" in="00:00:14.475" out="00:00:25.949"/>
     <entry producer="producer170" in="00:00:25.982" out="00:00:30.952"/>
     <entry producer="producer171" in="00:00:30.985" out="00:00:34.854"/>
-    <entry producer="producer172" in="00:00:34.888" out="00:00:42.826"/>
-    <blank length="00:00:14.976"/>
-    <entry producer="producer173" in="00:00:00.000" out="00:00:04.436"/>
+    <entry producer="producer172" in="00:00:34.888" out="00:00:41.959"/>
+    <entry producer="producer173" in="00:00:41.992" out="00:00:48.163"/>
+    <entry producer="producer174" in="00:00:48.196" out="00:01:32.820"/>
   </playlist>
-  <producer id="producer174" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
-    <property name="length">431738</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
-    <filter id="filter11" out="00:00:03.969">
-      <property name="background">colour:0</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">00:00:00.000=0 360 1280 720 1;00:00:03.969=0 730 1280 720 1</property>
-      <property name="transition.valign">top</property>
-      <property name="transition.halign">left</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
-  </producer>
   <producer id="producer175" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
@@ -3930,7 +3941,7 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="shotcut:filter">affineSizePosition</property>
       <property name="transition.fill">1</property>
       <property name="transition.distort">0</property>
-      <property name="transition.rect">00:00:00.000=0 730 1280 720 1;00:00:03.969=0 360 1280 720 1</property>
+      <property name="transition.rect">00:00:00.000=0 360 1280 720 1;00:00:03.969=0 730 1280 720 1</property>
       <property name="transition.valign">top</property>
       <property name="transition.halign">left</property>
       <property name="shotcut:animIn">00:00:00.000</property>
@@ -3938,13 +3949,6 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <playlist id="playlist1">
-    <property name="shotcut:video">1</property>
-    <property name="shotcut:name">V2</property>
-    <entry producer="producer174" in="00:00:00.000" out="00:00:03.969"/>
-    <blank length="00:06:41.759"/>
-    <entry producer="producer175" in="00:00:00.000" out="00:00:03.969"/>
-  </playlist>
   <producer id="producer176" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
@@ -3963,7 +3967,7 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="shotcut:filter">affineSizePosition</property>
       <property name="transition.fill">1</property>
       <property name="transition.distort">0</property>
-      <property name="transition.rect">00:00:00.000=0 -360 1280 720 1;00:00:03.969=0 -730 1280 720 1</property>
+      <property name="transition.rect">00:00:00.000=0 730 1280 720 1;00:00:03.969=0 360 1280 720 1</property>
       <property name="transition.valign">top</property>
       <property name="transition.halign">left</property>
       <property name="shotcut:animIn">00:00:00.000</property>
@@ -3971,6 +3975,13 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer175" in="00:00:00.000" out="00:00:03.969"/>
+    <blank length="00:06:41.759"/>
+    <entry producer="producer176" in="00:00:00.000" out="00:00:03.969"/>
+  </playlist>
   <producer id="producer177" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
@@ -3989,6 +4000,32 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
       <property name="shotcut:filter">affineSizePosition</property>
       <property name="transition.fill">1</property>
       <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=0 -360 1280 720 1;00:00:03.969=0 -730 1280 720 1</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer178" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+    <property name="length">431738</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter15" out="00:00:03.969">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
       <property name="transition.rect">00:00:00.000=0 -730 1280 720 1;00:00:03.969=0 -360 1280 720 1</property>
       <property name="transition.valign">top</property>
       <property name="transition.halign">left</property>
@@ -4000,11 +4037,11 @@ https://www.facebook.com/nhomnhunguocmoxanh</property>
   <playlist id="playlist2">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V3</property>
-    <entry producer="producer176" in="00:00:00.000" out="00:00:03.969"/>
-    <blank length="00:06:41.759"/>
     <entry producer="producer177" in="00:00:00.000" out="00:00:03.969"/>
+    <blank length="00:06:41.759"/>
+    <entry producer="producer178" in="00:00:00.000" out="00:00:03.969"/>
   </playlist>
-  <tractor id="tractor53" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:07:53.399">
+  <tractor id="tractor53" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:08:23.915">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
