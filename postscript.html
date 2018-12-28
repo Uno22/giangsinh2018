@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+	html, body    {margin: 0; width: 100%; height: 100%; overflow: hidden;}                                   /* <---- Do NOT change these */
+	@font-face {
+	  font-family: "times";
+	  src: url('times.ttf');
+	}
+	#credits      {position: absolute; top: 100%; width: 100%; padding:50px 0; margin:0; text-align: center;} /* <---- Do NOT change these */
+		/****************************************/
+		/* You may change any styles below here */
+		/****************************************/
+	#credits {font-size: 40px; font-family: "times"; color: #ddd;} /* Alter the color especially according to your background */
+	h1	{font-size: 2em;}                                             /* Alter the size especially according to your requirement */
+	.legal	{font-size: 0.75em; width: 50%; margin: auto; color: #bbb;}   /* Alter the color especially according to your background */
+	/********************************************************/
+			 /* Change CSS below only if you know what you are doing */
+	/********************************************************/
+	dl	{overflow: hidden}
+	dt	{width: 47%; padding: 8px 1%; text-align: right; float:left; clear: left;}
+	dd	{width: 47%; padding: 8px 1%; text-align: left;  margin-left: 50%}
+	dd:before{display: table; content: ' ';}
+	dd:after {display: table; content: ' '; clear: both;}
+</style>
+
+<script>
+	function Producer(style) {this.style = style;}
+	Producer.prototype.render = function(time) {this.style.top = (initial_top - total_height * time) + "px";}; // Scrolls up an increment
+	function onLoad() {
+		var credits      = document.getElementById("credits");    // The #credits div
+		var style        = credits.style;                         // The style object for #credits
+		var height       = credits.offsetHeight;                  // The height of #credits
+			initial_top  = credits.offsetTop;       // Global scoped variable since it used in the "render" function
+			total_height = height + initial_top;    // Global scoped variable since it used in the "render" function
+		var producer     = new Producer(style);
+	//  Use webvfx to call the "render" function for each frame to change #credit's "top", so making it scroll up.
+		webvfx.renderRequested.connect(producer, Producer.prototype.render);
+		webvfx.readyRender(true);
+	}
+	window.addEventListener("load", onLoad, false);
+</script>
+
+</head>
+<body>
+	<div id="credits"> <!-- Do not change the ID of this div, anything in it will appear on the scrolling credits -->
+		<h1>THANK YOU FOR WATCHING!!!</h1>
+		
+		<h1>XIN CHÂN THÀNH CẢM ƠN</h1>
+		<p>Tất cả các tình nguyện viên</p>
+		<hr>
+		<h1>------- NHÓM TÌNH NGUYỆN NHỮNG ƯỚC MƠ XANH ------</h1>
+		<p>
+			https://www.facebook.com/nhunguocmoxanh
+			https://www.facebook.com/nhomnhunguocmoxanh
+		</p>
+	</div>
+</body>
+</html>
