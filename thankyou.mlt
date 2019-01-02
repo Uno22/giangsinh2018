@@ -54,6 +54,19 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">994a6e9a8e30bbc58313a41ca148e950</property>
   </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.480">
+    <property name="length">6188</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Deck_the_Halls.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">176813c96006edc6c78849675362f7c2</property>
+  </producer>
   <playlist id="main_bin" title="Shotcut version 18.12.23">
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
@@ -62,6 +75,7 @@
     <entry producer="producer1" in="00:00:00.000" out="00:00:04.440"/>
     <entry producer="producer2" in="00:00:00.000" out="00:00:04.440"/>
     <entry producer="producer3" in="00:00:00.000" out="00:00:04.440"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:04:07.480"/>
   </playlist>
   <producer id="black" in="00:00:00.000" out="00:00:30.400">
     <property name="length">761</property>
@@ -75,7 +89,7 @@
   <playlist id="background">
     <entry producer="black" in="00:00:00.000" out="00:00:30.400"/>
   </playlist>
-  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -118,7 +132,7 @@
       <property name="geometry">00:00:06.080=0 0 0 0 1;00:00:07.040=0 0 0 0 1</property>
     </filter>
   </producer>
-  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -161,7 +175,7 @@
       <property name="geometry">00:00:00.000=0 0 0 0 1;00:00:00.960=0 0 0 0 1</property>
     </filter>
   </producer>
-  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -204,7 +218,7 @@
       <property name="geometry">00:00:03.240=0 0 0 0 1;00:00:04.200=0 0 0 0 1</property>
     </filter>
   </producer>
-  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/thankyou.png</property>
@@ -233,7 +247,7 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/nguonhinh.png</property>
@@ -262,7 +276,7 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -313,7 +327,7 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -347,7 +361,7 @@
       <property name="shotcut:pointSize">30</property>
     </filter>
   </producer>
-  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -393,14 +407,64 @@
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <entry producer="producer4" in="00:00:00.000" out="00:00:07.040"/>
-    <entry producer="producer5" in="00:00:05.000" out="00:00:06.720"/>
-    <entry producer="producer6" in="00:00:07.400" out="00:00:09.200"/>
-    <entry producer="producer7" in="00:00:00.000" out="00:00:04.440"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:07.040"/>
+    <entry producer="producer6" in="00:00:05.000" out="00:00:06.720"/>
+    <entry producer="producer7" in="00:00:07.400" out="00:00:09.200"/>
     <entry producer="producer8" in="00:00:00.000" out="00:00:04.440"/>
-    <entry producer="producer9" in="00:00:00.000" out="00:00:03.440"/>
-    <entry producer="producer10" in="00:00:00.000" out="00:00:03.800"/>
-    <entry producer="producer11" in="00:00:03.840" out="00:00:07.280"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:04.440"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:03.440"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:03.800"/>
+    <entry producer="producer12" in="00:00:03.840" out="00:00:07.280"/>
+  </playlist>
+  <producer id="producer13" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.480">
+    <property name="length">6188</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Deck_the_Halls.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">176813c96006edc6c78849675362f7c2</property>
+    <property name="shotcut:caption">Deck_the_Halls.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Deck_the_Halls.mp3</property>
+    <filter id="filter16" out="00:00:26.920">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-20</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer14" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.480">
+    <property name="length">6188</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Deck_the_Halls.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">176813c96006edc6c78849675362f7c2</property>
+    <property name="shotcut:caption">Deck_the_Halls.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Deck_the_Halls.mp3</property>
+    <filter id="filter17" in="00:00:26.960" out="00:00:29.640">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-20;00:00:02.560=-50;00:00:02.680=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:26.920"/>
+    <entry producer="producer14" in="00:00:26.960" out="00:00:29.640"/>
   </playlist>
   <tractor id="tractor0" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:00:30.400">
     <property name="shotcut">1</property>
@@ -408,6 +472,7 @@
     <property name="shotcut:projectFolder">1</property>
     <track producer="background"/>
     <track producer="playlist1"/>
+    <track producer="playlist0" hide="video"/>
     <transition id="transition2">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -417,10 +482,17 @@
     </transition>
     <transition id="transition3">
       <property name="a_track">1</property>
-      <property name="b_track">1</property>
+      <property name="b_track">2</property>
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="disable">1</property>
+    </transition>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
     </transition>
   </tractor>
 </mlt>
