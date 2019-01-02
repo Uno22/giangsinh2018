@@ -1127,6 +1127,32 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">60ec70e88bd6f481556d59b13f91ec68</property>
   </producer>
+  <producer id="producer84" title="Anonymous Submission" in="00:00:00.000" out="00:01:52.565">
+    <property name="length">3375</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a1f35d09e0da60e54065b152685427e4</property>
+  </producer>
+  <producer id="producer85" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.505">
+    <property name="length">7421</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Deck_the_Halls.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">176813c96006edc6c78849675362f7c2</property>
+  </producer>
   <playlist id="main_bin" title="Shotcut version 18.12.23">
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
@@ -1215,11 +1241,13 @@
     <entry producer="producer81" in="00:00:00.000" out="00:00:30.418"/>
     <entry producer="producer82" in="00:00:00.000" out="00:01:44.494"/>
     <entry producer="producer83" in="00:00:00.000" out="00:03:10.273"/>
+    <entry producer="producer84" in="00:00:00.000" out="00:01:52.565"/>
+    <entry producer="producer85" in="00:00:00.000" out="00:04:07.505"/>
   </playlist>
   <producer id="black" in="00:00:00.000" out="00:06:49.730">
     <property name="length">12285</property>
     <property name="eof">pause</property>
-    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\shortcut\giangsinh2018/black</property>
+    <property name="resource">black</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgb24</property>
@@ -1228,7 +1256,7 @@
   <playlist id="background">
     <entry producer="black" in="00:00:00.000" out="00:06:49.730"/>
   </playlist>
-  <producer id="producer84" title="Anonymous Submission" in="00:00:00.000" out="00:00:15.576">
+  <producer id="producer86" title="Anonymous Submission" in="00:00:00.000" out="00:00:15.576">
     <property name="length">468</property>
     <property name="eof">pause</property>
     <property name="resource">0.8:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\duong di\20181223_120337_duong di 5.mp4</property>
@@ -1325,7 +1353,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="disable">0</property>
     </filter>
   </producer>
-  <producer id="producer85" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.937">
+  <producer id="producer87" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.937">
     <property name="length">179</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181221_202319_khien do len xe.mp4</property>
@@ -1343,8 +1371,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.901">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer84" in="00:00:07.071" out="00:00:07.972"/>
-    <track producer="producer85" in="00:00:00.000" out="00:00:00.901"/>
+    <track producer="producer86" in="00:00:07.071" out="00:00:07.972"/>
+    <track producer="producer87" in="00:00:00.000" out="00:00:00.901"/>
     <transition id="transition0" out="00:00:00.901">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1359,7 +1387,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer86" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.937">
+  <producer id="producer88" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.937">
     <property name="length">179</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181221_202319_khien do len xe.mp4</property>
@@ -1374,7 +1402,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer87" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.937">
+  <producer id="producer89" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.937">
     <property name="length">179</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181221_202319_khien do len xe.mp4</property>
@@ -1390,7 +1418,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181221_202319_khien do len xe.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181221_202319_khien do len xe.mp4</property>
   </producer>
-  <producer id="producer88" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.736">
+  <producer id="producer90" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.736">
     <property name="length">113</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181221_204329_hop truoc khi len.mp4</property>
@@ -1408,8 +1436,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor1" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.600">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer87" in="00:00:05.337" out="00:00:05.937"/>
-    <track producer="producer88" in="00:00:00.000" out="00:00:00.600"/>
+    <track producer="producer89" in="00:00:05.337" out="00:00:05.937"/>
+    <track producer="producer90" in="00:00:00.000" out="00:00:00.600"/>
     <transition id="transition2" out="00:00:00.600">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1424,7 +1452,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer89" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.736">
+  <producer id="producer91" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.736">
     <property name="length">113</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181221_204329_hop truoc khi len.mp4</property>
@@ -1439,7 +1467,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer90" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.568">
+  <producer id="producer92" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.568">
     <property name="length">78</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/duong di/20181222_064009_duong di 3 - intro.mp4</property>
@@ -1457,8 +1485,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor2" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.467">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer88" in="00:00:03.269" out="00:00:03.736"/>
-    <track producer="producer90" in="00:00:00.000" out="00:00:00.467"/>
+    <track producer="producer90" in="00:00:03.269" out="00:00:03.736"/>
+    <track producer="producer92" in="00:00:00.000" out="00:00:00.467"/>
     <transition id="transition4" out="00:00:00.467">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1473,7 +1501,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer91" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.202">
+  <producer id="producer93" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.202">
     <property name="length">97</property>
     <property name="eof">pause</property>
     <property name="resource">0.8:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\duong di\20181222_064009_duong di 3 - intro.mp4</property>
@@ -1491,7 +1519,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer92" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.202">
+  <producer id="producer94" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.202">
     <property name="length">97</property>
     <property name="eof">pause</property>
     <property name="resource">0.8:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\duong di\20181222_064009_duong di 3 - intro.mp4</property>
@@ -1511,7 +1539,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181222_064009_duong di 3 - intro.mp4 (0.8x)</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\duong di\20181222_064009_duong di 3 - intro.mp4</property>
   </producer>
-  <producer id="producer93" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.205">
+  <producer id="producer95" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.205">
     <property name="length">247</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_073655_dừng xe ăn sáng 6.mp4</property>
@@ -1529,8 +1557,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor3" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.534">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer92" in="00:00:02.668" out="00:00:03.202"/>
-    <track producer="producer93" in="00:00:00.000" out="00:00:00.534"/>
+    <track producer="producer94" in="00:00:02.668" out="00:00:03.202"/>
+    <track producer="producer95" in="00:00:00.000" out="00:00:00.534"/>
     <transition id="transition6" out="00:00:00.534">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1545,7 +1573,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer94" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.205">
+  <producer id="producer96" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.205">
     <property name="length">247</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_073655_dừng xe ăn sáng 6.mp4</property>
@@ -1560,7 +1588,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer95" title="Anonymous Submission" in="00:00:00.000" out="00:00:28.050">
+  <producer id="producer97" title="Anonymous Submission" in="00:00:00.000" out="00:00:28.050">
     <property name="length">842</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_071420_dừng xe ăn sáng 1.mp4</property>
@@ -1576,39 +1604,6 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">20181222_071420_dừng xe ăn sáng 1.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_071420_dừng xe ăn sáng 1.mp4</property>
-  </producer>
-  <producer id="producer96" title="Anonymous Submission" in="00:00:00.000" out="00:00:09.239">
-    <property name="length">278</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_072556_dừng xe ăn sáng 3.mp4</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">1</property>
-    <property name="mlt_service">avformat</property>
-    <property name="video_delay">0</property>
-    <property name="shotcut:hash">2f738a54c23e09627cd8e316c7420900</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-  </producer>
-  <producer id="producer97" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.069">
-    <property name="length">93</property>
-    <property name="eof">pause</property>
-    <property name="resource">3:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_072556_dừng xe ăn sáng 3.mp4</property>
-    <property name="aspect_ratio">1</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">1</property>
-    <property name="warp_speed">3</property>
-    <property name="warp_resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_072556_dừng xe ăn sáng 3.mp4</property>
-    <property name="mlt_service">timewarp</property>
-    <property name="shotcut:producer">avformat</property>
-    <property name="video_delay">0</property>
-    <property name="shotcut:hash">2f738a54c23e09627cd8e316c7420900</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
   </producer>
   <producer id="producer98" title="Anonymous Submission" in="00:00:00.000" out="00:00:09.239">
     <property name="length">278</property>
@@ -1658,7 +1653,40 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer101" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.537">
+  <producer id="producer101" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.069">
+    <property name="length">93</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_072556_dừng xe ăn sáng 3.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_072556_dừng xe ăn sáng 3.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">2f738a54c23e09627cd8e316c7420900</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer102" title="Anonymous Submission" in="00:00:00.000" out="00:00:09.239">
+    <property name="length">278</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_072556_dừng xe ăn sáng 3.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">2f738a54c23e09627cd8e316c7420900</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer103" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.537">
     <property name="length">167</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_072736_dừng xe ăn sáng 4.mp4</property>
@@ -1674,7 +1702,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181222_072736_dừng xe ăn sáng 4.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_072736_dừng xe ăn sáng 4.mp4</property>
   </producer>
-  <producer id="producer102" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.374">
+  <producer id="producer104" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.374">
     <property name="length">372</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_075435_duong di sau an sang.mp4</property>
@@ -1692,8 +1720,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor4" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.634">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer101" in="00:00:04.903" out="00:00:05.537"/>
-    <track producer="producer102" in="00:00:03.069" out="00:00:03.702"/>
+    <track producer="producer103" in="00:00:04.903" out="00:00:05.537"/>
+    <track producer="producer104" in="00:00:03.069" out="00:00:03.702"/>
     <transition id="transition8" out="00:00:00.634">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1708,7 +1736,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer103" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.374">
+  <producer id="producer105" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.374">
     <property name="length">372</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_075435_duong di sau an sang.mp4</property>
@@ -1723,7 +1751,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer104" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer106" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/_UAN0050.JPG</property>
@@ -1738,8 +1766,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor5" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.734">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer102" in="00:00:10.640" out="00:00:12.374"/>
-    <track producer="producer104" in="00:00:00.000" out="00:00:01.734"/>
+    <track producer="producer104" in="00:00:10.640" out="00:00:12.374"/>
+    <track producer="producer106" in="00:00:00.000" out="00:00:01.734"/>
     <transition id="transition10" out="00:00:01.734">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1754,7 +1782,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer105" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer107" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/van chuyen do/_UAN0090.JPG</property>
@@ -1769,8 +1797,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor6" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.701">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer104" in="00:00:02.735" out="00:00:04.436"/>
-    <track producer="producer105" in="00:00:00.000" out="00:00:01.701"/>
+    <track producer="producer106" in="00:00:02.735" out="00:00:04.436"/>
+    <track producer="producer107" in="00:00:00.000" out="00:00:01.701"/>
     <transition id="transition12" out="00:00:01.701">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1785,7 +1813,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer106" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer108" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/van chuyen do/_UAN0125.JPG</property>
@@ -1800,8 +1828,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor7" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.801">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer105" in="00:00:02.635" out="00:00:04.436"/>
-    <track producer="producer106" in="00:00:00.000" out="00:00:01.801"/>
+    <track producer="producer107" in="00:00:02.635" out="00:00:04.436"/>
+    <track producer="producer108" in="00:00:00.000" out="00:00:01.801"/>
     <transition id="transition14" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1816,7 +1844,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer107" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer109" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/van chuyen do/_UAN0126.JPG</property>
@@ -1831,8 +1859,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor8" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.768">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer106" in="00:00:02.668" out="00:00:04.436"/>
-    <track producer="producer107" in="00:00:00.000" out="00:00:01.768"/>
+    <track producer="producer108" in="00:00:02.668" out="00:00:04.436"/>
+    <track producer="producer109" in="00:00:00.000" out="00:00:01.768"/>
     <transition id="transition16" out="00:00:01.768">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1847,7 +1875,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer108" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer110" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/van chuyen do/_UAN0134.JPG</property>
@@ -1862,8 +1890,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor9" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.668">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer107" in="00:00:02.768" out="00:00:04.436"/>
-    <track producer="producer108" in="00:00:00.000" out="00:00:01.668"/>
+    <track producer="producer109" in="00:00:02.768" out="00:00:04.436"/>
+    <track producer="producer110" in="00:00:00.000" out="00:00:01.668"/>
     <transition id="transition18" out="00:00:01.668">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1878,7 +1906,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer109" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer111" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/van chuyen do/_UAN0139.JPG</property>
@@ -1893,8 +1921,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor10" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.801">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer108" in="00:00:02.635" out="00:00:04.436"/>
-    <track producer="producer109" in="00:00:00.000" out="00:00:01.801"/>
+    <track producer="producer110" in="00:00:02.635" out="00:00:04.436"/>
+    <track producer="producer111" in="00:00:00.000" out="00:00:01.801"/>
     <transition id="transition20" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1909,7 +1937,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer110" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.972">
+  <producer id="producer112" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.972">
     <property name="length">270</property>
     <property name="eof">pause</property>
     <property name="resource">0.7:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_111452_bao quat 1.mp4</property>
@@ -1927,7 +1955,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer111" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.902">
+  <producer id="producer113" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.902">
     <property name="length">88</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_122537_chup hinh 1.mp4</property>
@@ -1945,8 +1973,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor11" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.367">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer110" in="00:00:06.304" out="00:00:07.671"/>
-    <track producer="producer111" in="00:00:00.000" out="00:00:01.367"/>
+    <track producer="producer112" in="00:00:06.304" out="00:00:07.671"/>
+    <track producer="producer113" in="00:00:00.000" out="00:00:01.367"/>
     <transition id="transition22" out="00:00:01.367">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1961,33 +1989,33 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer112" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
-    <property name="length">431738</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_7778.JPG</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">7fe2c20a3316b05f5d0610e940c21e04</property>
-  </producer>
-  <producer id="producer113" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
-    <property name="length">431738</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_7778.JPG</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">7fe2c20a3316b05f5d0610e940c21e04</property>
-  </producer>
   <producer id="producer114" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+    <property name="length">431738</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_7778.JPG</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7fe2c20a3316b05f5d0610e940c21e04</property>
+  </producer>
+  <producer id="producer115" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+    <property name="length">431738</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_7778.JPG</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7fe2c20a3316b05f5d0610e940c21e04</property>
+  </producer>
+  <producer id="producer116" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_7868.JPG</property>
@@ -2002,8 +2030,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor12" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.035">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer113" in="00:00:02.401" out="00:00:04.436"/>
-    <track producer="producer114" in="00:00:00.000" out="00:00:02.035"/>
+    <track producer="producer115" in="00:00:02.401" out="00:00:04.436"/>
+    <track producer="producer116" in="00:00:00.000" out="00:00:02.035"/>
     <transition id="transition24" out="00:00:02.035">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2018,7 +2046,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer115" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer117" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 001.JPG</property>
@@ -2033,8 +2061,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor13" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.534">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer114" in="00:00:02.902" out="00:00:04.436"/>
-    <track producer="producer115" in="00:00:00.000" out="00:00:01.534"/>
+    <track producer="producer116" in="00:00:02.902" out="00:00:04.436"/>
+    <track producer="producer117" in="00:00:00.000" out="00:00:01.534"/>
     <transition id="transition26" out="00:00:01.534">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2049,7 +2077,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer116" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer118" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_8475.JPG</property>
@@ -2064,8 +2092,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor14" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.668">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer115" in="00:00:02.768" out="00:00:04.436"/>
-    <track producer="producer116" in="00:00:00.000" out="00:00:01.668"/>
+    <track producer="producer117" in="00:00:02.768" out="00:00:04.436"/>
+    <track producer="producer118" in="00:00:00.000" out="00:00:01.668"/>
     <transition id="transition28" out="00:00:01.668">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2080,7 +2108,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer117" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.069">
+  <producer id="producer119" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.069">
     <property name="length">93</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_121957_tro choi 2.mp4</property>
@@ -2095,7 +2123,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer118" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.069">
+  <producer id="producer120" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.069">
     <property name="length">93</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_121957_tro choi 2.mp4</property>
@@ -2111,7 +2139,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181222_121957_tro choi 2.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_121957_tro choi 2.mp4</property>
   </producer>
-  <producer id="producer119" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.935">
+  <producer id="producer121" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.935">
     <property name="length">89</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_122012_tro choi 3.mp4</property>
@@ -2129,8 +2157,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor15" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.434">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer118" in="00:00:01.634" out="00:00:03.069"/>
-    <track producer="producer119" in="00:00:00.000" out="00:00:01.434"/>
+    <track producer="producer120" in="00:00:01.634" out="00:00:03.069"/>
+    <track producer="producer121" in="00:00:00.000" out="00:00:01.434"/>
     <transition id="transition30" out="00:00:01.434">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2145,7 +2173,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer120" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.935">
+  <producer id="producer122" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.935">
     <property name="length">89</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_122012_tro choi 3.mp4</property>
@@ -2160,7 +2188,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer121" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer123" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_7897.JPG</property>
@@ -2173,7 +2201,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">653dea16fed778b69fb7b34d0a3a96a9</property>
   </producer>
-  <producer id="producer122" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer124" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 195.JPG</property>
@@ -2188,8 +2216,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor16" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.935">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer121" in="00:00:02.502" out="00:00:04.436"/>
-    <track producer="producer122" in="00:00:00.000" out="00:00:01.935"/>
+    <track producer="producer123" in="00:00:02.502" out="00:00:04.436"/>
+    <track producer="producer124" in="00:00:00.000" out="00:00:01.935"/>
     <transition id="transition32" out="00:00:01.935">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2204,7 +2232,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer123" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer125" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_7813.JPG</property>
@@ -2219,8 +2247,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor17" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.401">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer122" in="00:00:03.035" out="00:00:04.436"/>
-    <track producer="producer123" in="00:00:00.000" out="00:00:01.401"/>
+    <track producer="producer124" in="00:00:03.035" out="00:00:04.436"/>
+    <track producer="producer125" in="00:00:00.000" out="00:00:01.401"/>
     <transition id="transition34" out="00:00:01.401">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2235,7 +2263,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer124" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.211">
+  <producer id="producer126" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.211">
     <property name="length">547</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114836_phan qua 2 - tro choi 1.mp4</property>
@@ -2253,8 +2281,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor18" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.834">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer123" in="00:00:02.602" out="00:00:04.436"/>
-    <track producer="producer124" in="00:00:14.342" out="00:00:16.176"/>
+    <track producer="producer125" in="00:00:02.602" out="00:00:04.436"/>
+    <track producer="producer126" in="00:00:14.342" out="00:00:16.176"/>
     <transition id="transition36" out="00:00:01.834">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2269,7 +2297,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer125" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.211">
+  <producer id="producer127" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.211">
     <property name="length">547</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114836_phan qua 2 - tro choi 1.mp4</property>
@@ -2284,7 +2312,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer126" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer128" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 037.JPG</property>
@@ -2297,7 +2325,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">78b3bb3baeede58a3add5defd53a0985</property>
   </producer>
-  <producer id="producer127" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer129" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 042.JPG</property>
@@ -2312,8 +2340,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor19" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.035">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer126" in="00:00:02.401" out="00:00:04.436"/>
-    <track producer="producer127" in="00:00:00.000" out="00:00:02.035"/>
+    <track producer="producer128" in="00:00:02.401" out="00:00:04.436"/>
+    <track producer="producer129" in="00:00:00.000" out="00:00:02.035"/>
     <transition id="transition38" out="00:00:02.035">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2328,7 +2356,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer128" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer130" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 055.JPG</property>
@@ -2343,8 +2371,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor20" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.534">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer127" in="00:00:02.902" out="00:00:04.436"/>
-    <track producer="producer128" in="00:00:00.000" out="00:00:01.534"/>
+    <track producer="producer129" in="00:00:02.902" out="00:00:04.436"/>
+    <track producer="producer130" in="00:00:00.000" out="00:00:01.534"/>
     <transition id="transition40" out="00:00:01.534">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2359,7 +2387,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer129" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer131" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 057.JPG</property>
@@ -2374,8 +2402,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor21" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.734">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer128" in="00:00:02.702" out="00:00:04.436"/>
-    <track producer="producer129" in="00:00:00.000" out="00:00:01.734"/>
+    <track producer="producer130" in="00:00:02.702" out="00:00:04.436"/>
+    <track producer="producer131" in="00:00:00.000" out="00:00:01.734"/>
     <transition id="transition42" out="00:00:01.734">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2390,7 +2418,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer130" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.049">
+  <producer id="producer132" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.049">
     <property name="length">752</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_112214_phan qua 1.mp4</property>
@@ -2408,8 +2436,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor22" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.434">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer129" in="00:00:03.002" out="00:00:04.436"/>
-    <track producer="producer130" in="00:00:00.000" out="00:00:01.434"/>
+    <track producer="producer131" in="00:00:03.002" out="00:00:04.436"/>
+    <track producer="producer132" in="00:00:00.000" out="00:00:01.434"/>
     <transition id="transition44" out="00:00:01.434">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2424,7 +2452,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer131" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.049">
+  <producer id="producer133" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.049">
     <property name="length">752</property>
     <property name="eof">pause</property>
     <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_112214_phan qua 1.mp4</property>
@@ -2439,7 +2467,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer132" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.049">
+  <producer id="producer134" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.049">
     <property name="length">752</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_112214_phan qua 1.mp4</property>
@@ -2455,7 +2483,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181222_112214_phan qua 1.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_112214_phan qua 1.mp4</property>
   </producer>
-  <producer id="producer133" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer135" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/phan qua/_MG_7793.JPG</property>
@@ -2470,8 +2498,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor23" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.701">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer132" in="00:00:17.477" out="00:00:19.178"/>
-    <track producer="producer133" in="00:00:00.000" out="00:00:01.701"/>
+    <track producer="producer134" in="00:00:17.477" out="00:00:19.178"/>
+    <track producer="producer135" in="00:00:00.000" out="00:00:01.701"/>
     <transition id="transition46" out="00:00:01.701">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2486,7 +2514,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer134" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer136" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/phan qua/_MG_7797.JPG</property>
@@ -2501,8 +2529,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor24" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.568">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer133" in="00:00:02.868" out="00:00:04.436"/>
-    <track producer="producer134" in="00:00:00.000" out="00:00:01.568"/>
+    <track producer="producer135" in="00:00:02.868" out="00:00:04.436"/>
+    <track producer="producer136" in="00:00:00.000" out="00:00:01.568"/>
     <transition id="transition48" out="00:00:01.568">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2517,11 +2545,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer135" title="Anonymous Submission" in="00:00:00.000" out="00:00:07.805">
+  <producer id="producer137" title="Anonymous Submission" in="00:00:00.000" out="00:00:07.805">
     <property name="length">235</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_122309_phan qua 4.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -2535,8 +2563,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor25" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.434">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer134" in="00:00:03.002" out="00:00:04.436"/>
-    <track producer="producer135" in="00:00:00.000" out="00:00:01.434"/>
+    <track producer="producer136" in="00:00:03.002" out="00:00:04.436"/>
+    <track producer="producer137" in="00:00:00.000" out="00:00:01.434"/>
     <transition id="transition50" out="00:00:01.434">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2547,11 +2575,26 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
+      <property name="start">0</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer136" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer138" title="Anonymous Submission" in="00:00:00.000" out="00:00:07.805">
+    <property name="length">235</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_122309_phan qua 4.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">74ba4bc4c9ff245d9cbd9597a7c72718</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer139" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/phan qua/IMG_0607.jpg</property>
@@ -2566,8 +2609,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor26" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.268">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer135" in="00:00:05.537" out="00:00:07.805"/>
-    <track producer="producer136" in="00:00:00.000" out="00:00:02.268"/>
+    <track producer="producer137" in="00:00:05.537" out="00:00:07.805"/>
+    <track producer="producer139" in="00:00:00.000" out="00:00:02.268"/>
     <transition id="transition52" out="00:00:02.268">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2582,11 +2625,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer137" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.669">
+  <producer id="producer140" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.669">
     <property name="length">111</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_154708_tu sach 1.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -2600,8 +2643,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor27" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.367">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer136" in="00:00:03.069" out="00:00:04.436"/>
-    <track producer="producer137" in="00:00:00.000" out="00:00:01.367"/>
+    <track producer="producer139" in="00:00:03.069" out="00:00:04.436"/>
+    <track producer="producer140" in="00:00:00.000" out="00:00:01.367"/>
     <transition id="transition54" out="00:00:01.367">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2612,11 +2655,26 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
+      <property name="start">0</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer138" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer141" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.669">
+    <property name="length">111</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_154708_tu sach 1.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">a4b530e21217d3048d8bac551117df19</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer142" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_160118_tu sach 2.jpg</property>
@@ -2629,11 +2687,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">8ef2b3e6132bd88fdd16ddf267bf132c</property>
   </producer>
-  <producer id="producer139" title="Anonymous Submission" in="00:00:00.000" out="00:00:04.336">
+  <producer id="producer143" title="Anonymous Submission" in="00:00:00.000" out="00:00:04.336">
     <property name="length">131</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114457_hau can 1.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -2647,8 +2705,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor28" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.634">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer138" in="00:00:02.802" out="00:00:04.436"/>
-    <track producer="producer139" in="00:00:00.000" out="00:00:01.634"/>
+    <track producer="producer142" in="00:00:02.802" out="00:00:04.436"/>
+    <track producer="producer143" in="00:00:00.000" out="00:00:01.634"/>
     <transition id="transition56" out="00:00:01.634">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2659,59 +2717,71 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
+      <property name="start">0</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer140" title="Anonymous Submission" in="00:00:00.000" out="00:00:13.942">
-    <property name="length">419</property>
+  <producer id="producer144" title="Anonymous Submission" in="00:00:00.000" out="00:00:04.336">
+    <property name="length">131</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114633_hau can 4.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114457_hau can 1.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">23799972b3266dfa622b552276f138c7</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">51b566cfec794eb3c47ea61c78d7d510</property>
-    <property name="shotcut:caption">20181222_114633_hau can 4.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114633_hau can 4.mp4</property>
   </producer>
-  <producer id="producer141" title="Anonymous Submission" in="00:00:00.000" out="00:00:13.942">
+  <producer id="producer145" title="Anonymous Submission" in="00:00:00.000" out="00:00:13.942">
     <property name="length">419</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114633_hau can 4.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114633_hau can 4.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">51b566cfec794eb3c47ea61c78d7d510</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">51b566cfec794eb3c47ea61c78d7d510</property>
-    <property name="shotcut:caption">20181222_114633_hau can 4.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114633_hau can 4.mp4</property>
   </producer>
-  <producer id="producer142" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.602">
+  <producer id="producer146" title="Anonymous Submission" in="00:00:00.000" out="00:00:13.942">
+    <property name="length">419</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114633_hau can 4.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">51b566cfec794eb3c47ea61c78d7d510</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer147" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.602">
     <property name="length">109</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114608_hau can 3.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114608_hau can 3.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">dc9801bf3c4f2db9321fd32120f9a570</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">dc9801bf3c4f2db9321fd32120f9a570</property>
-    <property name="shotcut:caption">20181222_114608_hau can 3.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114608_hau can 3.mp4</property>
   </producer>
-  <producer id="producer143" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.179">
+  <producer id="producer148" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.179">
     <property name="length">606</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114527_hau can 2.mp4</property>
@@ -2727,27 +2797,41 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181222_114527_hau can 2.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114527_hau can 2.mp4</property>
   </producer>
-  <producer id="producer144" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.736">
+  <producer id="producer149" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.736">
     <property name="length">113</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114744_hau can 5.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114744_hau can 5.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">187f0b16795fb215367f11074f121a91</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">187f0b16795fb215367f11074f121a91</property>
-    <property name="shotcut:caption">20181222_114744_hau can 5.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114744_hau can 5.mp4</property>
   </producer>
-  <producer id="producer145" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.170">
+  <producer id="producer150" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.170">
+    <property name="length">186</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114810_hau can 6.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">e7f8404916bc3cc9ab6d212ac4479e04</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer151" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.170">
     <property name="length">186</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_114810_hau can 6.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -2759,7 +2843,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181222_114810_hau can 6.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_114810_hau can 6.mp4</property>
   </producer>
-  <producer id="producer146" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer152" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hau can/45 030.JPG</property>
@@ -2774,8 +2858,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor29" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.634">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer145" in="00:00:04.536" out="00:00:06.170"/>
-    <track producer="producer146" in="00:00:00.000" out="00:00:01.634"/>
+    <track producer="producer151" in="00:00:04.536" out="00:00:06.170"/>
+    <track producer="producer152" in="00:00:00.000" out="00:00:01.634"/>
     <transition id="transition58" out="00:00:01.634">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2790,7 +2874,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer147" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer153" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hau can/IMG_0660.jpg</property>
@@ -2805,8 +2889,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor30" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.801">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer146" in="00:00:02.635" out="00:00:04.436"/>
-    <track producer="producer147" in="00:00:00.000" out="00:00:01.801"/>
+    <track producer="producer152" in="00:00:02.635" out="00:00:04.436"/>
+    <track producer="producer153" in="00:00:00.000" out="00:00:01.801"/>
     <transition id="transition60" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2821,11 +2905,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer148" title="Anonymous Submission" in="00:00:00.000" out="00:00:16.944">
+  <producer id="producer154" title="Anonymous Submission" in="00:00:00.000" out="00:00:16.944">
     <property name="length">509</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_132023_an trua.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -2839,8 +2923,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor31" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.135">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer147" in="00:00:05.003" out="00:00:07.138"/>
-    <track producer="producer148" in="00:00:00.000" out="00:00:02.135"/>
+    <track producer="producer153" in="00:00:05.003" out="00:00:07.138"/>
+    <track producer="producer154" in="00:00:00.000" out="00:00:02.135"/>
     <transition id="transition62" out="00:00:02.135">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2851,11 +2935,26 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
+      <property name="start">0</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer149" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.445">
+  <producer id="producer155" title="Anonymous Submission" in="00:00:00.000" out="00:00:16.944">
+    <property name="length">509</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_132023_an trua.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">0988689ee41aea1864168dd5084388ab</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer156" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.445">
     <property name="length">554</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_164355_tro choi 7 - van dong.mp4</property>
@@ -2873,8 +2972,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor32" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.935">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer148" in="00:00:14.008" out="00:00:16.944"/>
-    <track producer="producer149" in="00:00:00.000" out="00:00:02.935"/>
+    <track producer="producer154" in="00:00:14.008" out="00:00:16.944"/>
+    <track producer="producer156" in="00:00:00.000" out="00:00:02.935"/>
     <transition id="transition64" out="00:00:02.935">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2889,11 +2988,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer150" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.535">
+  <producer id="producer157" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.535">
     <property name="length">107</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_164115_tro choi 5 - to mau.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -2907,8 +3006,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor33" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.801">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer149" in="00:00:16.643" out="00:00:18.445"/>
-    <track producer="producer150" in="00:00:00.000" out="00:00:01.801"/>
+    <track producer="producer156" in="00:00:16.643" out="00:00:18.445"/>
+    <track producer="producer157" in="00:00:00.000" out="00:00:01.801"/>
     <transition id="transition66" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2923,39 +3022,54 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer151" title="Anonymous Submission" in="00:00:00.000" out="00:00:11.240">
+  <producer id="producer158" title="Anonymous Submission" in="00:00:00.000" out="00:00:03.535">
+    <property name="length">107</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_164115_tro choi 5 - to mau.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">4bda257f637588384bbac7850d87b8e9</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">20181222_164115_tro choi 5 - to mau.mp4</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_164115_tro choi 5 - to mau.mp4</property>
+  </producer>
+  <producer id="producer159" title="Anonymous Submission" in="00:00:00.000" out="00:00:11.240">
     <property name="length">338</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_163845_tro choi 4 - to mau.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_163845_tro choi 4 - to mau.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ebd322a4bc5c59b0dc75a208a5ffdeda</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">ebd322a4bc5c59b0dc75a208a5ffdeda</property>
-    <property name="shotcut:caption">20181222_163845_tro choi 4 - to mau.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_163845_tro choi 4 - to mau.mp4</property>
   </producer>
-  <producer id="producer152" title="Anonymous Submission" in="00:00:00.000" out="00:00:04.303">
+  <producer id="producer160" title="Anonymous Submission" in="00:00:00.000" out="00:00:04.303">
     <property name="length">130</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_164146_tro choi 6 - to mau.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_164146_tro choi 6 - to mau.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">094f2fbb50ddcbfd8148a41e08dc7a16</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">094f2fbb50ddcbfd8148a41e08dc7a16</property>
-    <property name="shotcut:caption">20181222_164146_tro choi 6 - to mau.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_164146_tro choi 6 - to mau.mp4</property>
   </producer>
-  <producer id="producer153" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer161" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 184.JPG</property>
@@ -2968,7 +3082,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">9a0996269a57a082d31626dbfbebd948</property>
   </producer>
-  <producer id="producer154" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer162" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/tro choi/_UAN0454.JPG</property>
@@ -2983,8 +3097,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor34" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.235">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer153" in="00:00:05.470" out="00:00:07.705"/>
-    <track producer="producer154" in="00:00:01.834" out="00:00:04.069"/>
+    <track producer="producer161" in="00:00:05.470" out="00:00:07.705"/>
+    <track producer="producer162" in="00:00:01.834" out="00:00:04.069"/>
     <transition id="transition68" out="00:00:02.235">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2999,7 +3113,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer155" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer163" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 160.JPG</property>
@@ -3014,8 +3128,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor35" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.068">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer154" in="00:00:06.604" out="00:00:08.672"/>
-    <track producer="producer155" in="00:00:00.000" out="00:00:02.068"/>
+    <track producer="producer162" in="00:00:06.604" out="00:00:08.672"/>
+    <track producer="producer163" in="00:00:00.000" out="00:00:02.068"/>
     <transition id="transition70" out="00:00:02.068">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3030,7 +3144,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer156" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer164" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/tro choi/_UAN0465.JPG</property>
@@ -3043,11 +3157,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">7bf471c4eaeb129718f877f992de79ea</property>
   </producer>
-  <producer id="producer157" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.105">
+  <producer id="producer165" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.105">
     <property name="length">244</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_142213_chuong trinh 1.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -3061,8 +3175,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor36" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.534">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer156" in="00:00:02.902" out="00:00:04.436"/>
-    <track producer="producer157" in="00:00:00.000" out="00:00:01.534"/>
+    <track producer="producer164" in="00:00:02.902" out="00:00:04.436"/>
+    <track producer="producer165" in="00:00:00.000" out="00:00:01.534"/>
     <transition id="transition72" out="00:00:01.534">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3073,11 +3187,26 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
+      <property name="start">0</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer158" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer166" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.105">
+    <property name="length">244</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_142213_chuong trinh 1.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">51a641060c5c7171e8c726020162062d</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer167" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/phat qua/45 224.JPG</property>
@@ -3090,7 +3219,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">a98acb10bfa5efc2eddc1454b062d5d1</property>
   </producer>
-  <producer id="producer159" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer168" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/phat qua/_UAN0490.JPG</property>
@@ -3103,7 +3232,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">43a73ceea2871d89703ee09cd413cab0</property>
   </producer>
-  <producer id="producer160" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer169" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/phat qua/_UAN0489.JPG</property>
@@ -3116,11 +3245,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">acbad09446d6726ad9bbe3aae23c49a4</property>
   </producer>
-  <producer id="producer161" title="Anonymous Submission" in="00:00:00.000" out="00:00:09.206">
+  <producer id="producer170" title="Anonymous Submission" in="00:00:00.000" out="00:00:09.206">
     <property name="length">277</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_161023_phat qua 2.mp4</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -3134,8 +3263,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor37" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.168">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer160" in="00:00:02.268" out="00:00:04.436"/>
-    <track producer="producer161" in="00:00:00.000" out="00:00:02.168"/>
+    <track producer="producer169" in="00:00:02.268" out="00:00:04.436"/>
+    <track producer="producer170" in="00:00:00.000" out="00:00:02.168"/>
     <transition id="transition74" out="00:00:02.168">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3146,11 +3275,26 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
+      <property name="start">0</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer162" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer171" title="Anonymous Submission" in="00:00:00.000" out="00:00:09.206">
+    <property name="length">277</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_161023_phat qua 2.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">088d14ab00dd92ac7e026a346d3efb82</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer172" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_161017_phat qua 1 - cua.jpg</property>
@@ -3165,8 +3309,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor38" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.734">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer161" in="00:00:07.471" out="00:00:09.206"/>
-    <track producer="producer162" in="00:00:00.000" out="00:00:01.734"/>
+    <track producer="producer170" in="00:00:07.471" out="00:00:09.206"/>
+    <track producer="producer172" in="00:00:00.000" out="00:00:01.734"/>
     <transition id="transition76" out="00:00:01.734">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3181,7 +3325,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer163" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer173" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/tro choi/_UAN0503.JPG</property>
@@ -3194,7 +3338,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">3d4de947296831fcec8986fc3ed48cd0</property>
   </producer>
-  <producer id="producer164" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer174" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hau can/_UAN0518.JPG</property>
@@ -3209,8 +3353,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor39" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.701">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer163" in="00:00:02.735" out="00:00:04.436"/>
-    <track producer="producer164" in="00:00:00.000" out="00:00:01.701"/>
+    <track producer="producer173" in="00:00:02.735" out="00:00:04.436"/>
+    <track producer="producer174" in="00:00:00.000" out="00:00:01.701"/>
     <transition id="transition78" out="00:00:01.701">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3225,7 +3369,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer165" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer175" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hau can/_UAN0527.JPG</property>
@@ -3240,8 +3384,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor40" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.601">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer164" in="00:00:02.835" out="00:00:04.436"/>
-    <track producer="producer165" in="00:00:00.000" out="00:00:01.601"/>
+    <track producer="producer174" in="00:00:02.835" out="00:00:04.436"/>
+    <track producer="producer175" in="00:00:00.000" out="00:00:01.601"/>
     <transition id="transition80" out="00:00:01.601">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3256,7 +3400,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer166" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer176" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hau can/_UAN0530.JPG</property>
@@ -3271,8 +3415,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor41" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.801">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer165" in="00:00:02.635" out="00:00:04.436"/>
-    <track producer="producer166" in="00:00:00.000" out="00:00:01.801"/>
+    <track producer="producer175" in="00:00:02.635" out="00:00:04.436"/>
+    <track producer="producer176" in="00:00:00.000" out="00:00:01.801"/>
     <transition id="transition82" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3287,7 +3431,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer167" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer177" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/IMG_0631.jpg</property>
@@ -3302,8 +3446,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor42" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.801">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer166" in="00:00:04.669" out="00:00:06.471"/>
-    <track producer="producer167" in="00:00:00.000" out="00:00:01.801"/>
+    <track producer="producer176" in="00:00:04.669" out="00:00:06.471"/>
+    <track producer="producer177" in="00:00:00.000" out="00:00:01.801"/>
     <transition id="transition84" out="00:00:01.801">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3318,7 +3462,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer168" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer178" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 027.JPG</property>
@@ -3333,8 +3477,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor43" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.135">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer167" in="00:00:05.036" out="00:00:07.171"/>
-    <track producer="producer168" in="00:00:00.200" out="00:00:02.335"/>
+    <track producer="producer177" in="00:00:05.036" out="00:00:07.171"/>
+    <track producer="producer178" in="00:00:00.200" out="00:00:02.335"/>
     <transition id="transition86" out="00:00:02.135">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3349,7 +3493,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer169" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer179" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 299.JPG</property>
@@ -3364,8 +3508,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor44" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.834">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer168" in="00:00:04.636" out="00:00:06.471"/>
-    <track producer="producer169" in="00:00:00.000" out="00:00:01.834"/>
+    <track producer="producer178" in="00:00:04.636" out="00:00:06.471"/>
+    <track producer="producer179" in="00:00:00.000" out="00:00:01.834"/>
     <transition id="transition88" out="00:00:01.834">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3380,7 +3524,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer170" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer180" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 302.JPG</property>
@@ -3395,8 +3539,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor45" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.068">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer169" in="00:00:05.170" out="00:00:07.238"/>
-    <track producer="producer170" in="00:00:00.000" out="00:00:02.068"/>
+    <track producer="producer179" in="00:00:05.170" out="00:00:07.238"/>
+    <track producer="producer180" in="00:00:00.000" out="00:00:02.068"/>
     <transition id="transition90" out="00:00:02.068">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3411,7 +3555,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer171" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer181" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/DSCF4303.JPG</property>
@@ -3426,8 +3570,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor46" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.135">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer170" in="00:00:04.136" out="00:00:06.270"/>
-    <track producer="producer171" in="00:00:00.000" out="00:00:02.135"/>
+    <track producer="producer180" in="00:00:04.136" out="00:00:06.270"/>
+    <track producer="producer181" in="00:00:00.000" out="00:00:02.135"/>
     <transition id="transition92" out="00:00:02.135">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3442,7 +3586,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer172" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer182" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/_MG_8010.JPG</property>
@@ -3457,8 +3601,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor47" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.235">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer171" in="00:00:03.502" out="00:00:05.737"/>
-    <track producer="producer172" in="00:00:00.000" out="00:00:02.235"/>
+    <track producer="producer181" in="00:00:03.502" out="00:00:05.737"/>
+    <track producer="producer182" in="00:00:00.000" out="00:00:02.235"/>
     <transition id="transition94" out="00:00:02.235">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3473,7 +3617,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer173" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer183" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Hinh cac be/45 034.JPG</property>
@@ -3488,8 +3632,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor48" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.768">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer172" in="00:00:04.336" out="00:00:07.104"/>
-    <track producer="producer173" in="00:00:00.000" out="00:00:02.768"/>
+    <track producer="producer182" in="00:00:04.336" out="00:00:07.104"/>
+    <track producer="producer183" in="00:00:00.000" out="00:00:02.768"/>
     <transition id="transition96" out="00:00:02.768">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3504,7 +3648,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer174" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer184" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hinh cuoi chuong trinh/_UAN0552.JPG</property>
@@ -3519,8 +3663,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor49" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.168">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer173" in="00:00:06.004" out="00:00:08.172"/>
-    <track producer="producer174" in="00:00:00.000" out="00:00:02.168"/>
+    <track producer="producer183" in="00:00:06.004" out="00:00:08.172"/>
+    <track producer="producer184" in="00:00:00.000" out="00:00:02.168"/>
     <transition id="transition98" out="00:00:02.168">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3535,7 +3679,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer175" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer185" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hinh cuoi chuong trinh/_UAN0556.JPG</property>
@@ -3550,8 +3694,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor50" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.635">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer174" in="00:00:07.705" out="00:00:10.340"/>
-    <track producer="producer175" in="00:00:00.000" out="00:00:02.635"/>
+    <track producer="producer184" in="00:00:07.705" out="00:00:10.340"/>
+    <track producer="producer185" in="00:00:00.000" out="00:00:02.635"/>
     <transition id="transition100" out="00:00:02.635">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3566,7 +3710,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer176" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.411">
+  <producer id="producer186" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.411">
     <property name="length">553</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip2/flycam/DJI_0044.MP4</property>
@@ -3584,8 +3728,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor51" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.001">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer175" in="00:00:06.871" out="00:00:08.872"/>
-    <track producer="producer176" in="00:00:00.000" out="00:00:02.001"/>
+    <track producer="producer185" in="00:00:06.871" out="00:00:08.872"/>
+    <track producer="producer186" in="00:00:00.000" out="00:00:02.001"/>
     <transition id="transition102" out="00:00:02.001">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3600,7 +3744,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer177" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.741">
+  <producer id="producer187" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.741">
     <property name="length">383</property>
     <property name="eof">pause</property>
     <property name="resource">0.3:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_162112_banner.mp4</property>
@@ -3622,8 +3766,8 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   </producer>
   <tractor id="tractor52" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.235">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer176" in="00:00:16.176" out="00:00:18.411"/>
-    <track producer="producer177" in="00:00:00.000" out="00:00:02.235"/>
+    <track producer="producer186" in="00:00:16.176" out="00:00:18.411"/>
+    <track producer="producer187" in="00:00:00.000" out="00:00:02.235"/>
     <transition id="transition104" out="00:00:02.235">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3634,17 +3778,17 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
+      <property name="start">0</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer178" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.741">
+  <producer id="producer188" title="Anonymous Submission" in="00:00:00.000" out="00:00:12.741">
     <property name="length">383</property>
     <property name="eof">pause</property>
     <property name="resource">0.3:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_162112_banner.mp4</property>
     <property name="aspect_ratio">1</property>
     <property name="seekable">1</property>
-    <property name="audio_index">1</property>
+    <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">1</property>
     <property name="warp_speed">0.3</property>
@@ -3655,149 +3799,147 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:hash">ac76a33ae07468565916999f5c908993</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:caption">20181222_162112_banner.mp4 (0.3x)</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_162112_banner.mp4</property>
   </producer>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">intro video</property>
-    <entry producer="producer84" in="00:00:00.000" out="00:00:07.038"/>
+    <entry producer="producer86" in="00:00:00.000" out="00:00:07.038"/>
     <entry producer="tractor0" in="00:00:00.000" out="00:00:00.901"/>
-    <entry producer="producer86" in="00:00:00.934" out="00:00:05.303"/>
+    <entry producer="producer88" in="00:00:00.934" out="00:00:05.303"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:00.600"/>
-    <entry producer="producer89" in="00:00:00.634" out="00:00:03.235"/>
+    <entry producer="producer91" in="00:00:00.634" out="00:00:03.235"/>
     <entry producer="tractor2" in="00:00:00.000" out="00:00:00.467"/>
-    <entry producer="producer91" in="00:00:00.634" out="00:00:02.635"/>
+    <entry producer="producer93" in="00:00:00.634" out="00:00:02.635"/>
     <entry producer="tractor3" in="00:00:00.000" out="00:00:00.534"/>
-    <entry producer="producer94" in="00:00:00.567" out="00:00:04.936"/>
-    <entry producer="producer95" in="00:00:00.000" out="00:00:28.050"/>
-    <entry producer="producer96" in="00:00:00.000" out="00:00:00.867"/>
-    <entry producer="producer97" in="00:00:00.300" out="00:00:01.301"/>
-    <entry producer="producer98" in="00:00:03.902" out="00:00:05.370"/>
-    <entry producer="producer99" in="00:00:01.801" out="00:00:02.268"/>
-    <entry producer="producer100" in="00:00:06.871" out="00:00:09.239"/>
-    <entry producer="producer101" in="00:00:00.000" out="00:00:04.870"/>
+    <entry producer="producer96" in="00:00:00.567" out="00:00:04.936"/>
+    <entry producer="producer97" in="00:00:00.000" out="00:00:28.050"/>
+    <entry producer="producer98" in="00:00:00.000" out="00:00:00.867"/>
+    <entry producer="producer99" in="00:00:00.300" out="00:00:01.301"/>
+    <entry producer="producer100" in="00:00:03.902" out="00:00:05.370"/>
+    <entry producer="producer101" in="00:00:01.801" out="00:00:02.268"/>
+    <entry producer="producer102" in="00:00:06.871" out="00:00:09.239"/>
+    <entry producer="producer103" in="00:00:00.000" out="00:00:04.870"/>
     <entry producer="tractor4" in="00:00:00.000" out="00:00:00.634"/>
-    <entry producer="producer103" in="00:00:03.736" out="00:00:10.606"/>
+    <entry producer="producer105" in="00:00:03.736" out="00:00:10.606"/>
     <entry producer="tractor5" in="00:00:00.000" out="00:00:01.734"/>
-    <entry producer="producer104" in="00:00:01.768" out="00:00:02.702"/>
+    <entry producer="producer106" in="00:00:01.768" out="00:00:02.702"/>
     <entry producer="tractor6" in="00:00:00.000" out="00:00:01.701"/>
-    <entry producer="producer105" in="00:00:01.734" out="00:00:02.602"/>
+    <entry producer="producer107" in="00:00:01.734" out="00:00:02.602"/>
     <entry producer="tractor7" in="00:00:00.000" out="00:00:01.801"/>
-    <entry producer="producer106" in="00:00:01.834" out="00:00:02.635"/>
+    <entry producer="producer108" in="00:00:01.834" out="00:00:02.635"/>
     <entry producer="tractor8" in="00:00:00.000" out="00:00:01.768"/>
-    <entry producer="producer107" in="00:00:01.801" out="00:00:02.735"/>
+    <entry producer="producer109" in="00:00:01.801" out="00:00:02.735"/>
     <entry producer="tractor9" in="00:00:00.000" out="00:00:01.668"/>
-    <entry producer="producer108" in="00:00:01.701" out="00:00:02.602"/>
+    <entry producer="producer110" in="00:00:01.701" out="00:00:02.602"/>
     <entry producer="tractor10" in="00:00:00.000" out="00:00:01.801"/>
-    <entry producer="producer109" in="00:00:01.834" out="00:00:04.636"/>
-    <entry producer="producer110" in="00:00:00.000" out="00:00:06.270"/>
+    <entry producer="producer111" in="00:00:01.834" out="00:00:04.636"/>
+    <entry producer="producer112" in="00:00:00.000" out="00:00:06.270"/>
     <entry producer="tractor11" in="00:00:00.000" out="00:00:01.367"/>
-    <entry producer="producer111" in="00:00:01.401" out="00:00:02.902"/>
-    <entry producer="producer112" in="00:00:00.000" out="00:00:01.468"/>
-    <entry producer="producer113" in="00:00:01.501" out="00:00:02.368"/>
+    <entry producer="producer113" in="00:00:01.401" out="00:00:02.902"/>
+    <entry producer="producer114" in="00:00:00.000" out="00:00:01.468"/>
+    <entry producer="producer115" in="00:00:01.501" out="00:00:02.368"/>
     <entry producer="tractor12" in="00:00:00.000" out="00:00:02.035"/>
-    <entry producer="producer114" in="00:00:02.068" out="00:00:02.868"/>
+    <entry producer="producer116" in="00:00:02.068" out="00:00:02.868"/>
     <entry producer="tractor13" in="00:00:00.000" out="00:00:01.534"/>
-    <entry producer="producer115" in="00:00:01.568" out="00:00:02.735"/>
+    <entry producer="producer117" in="00:00:01.568" out="00:00:02.735"/>
     <entry producer="tractor14" in="00:00:00.000" out="00:00:01.668"/>
-    <entry producer="producer116" in="00:00:01.701" out="00:00:04.436"/>
-    <entry producer="producer117" in="00:00:00.000" out="00:00:01.601"/>
+    <entry producer="producer118" in="00:00:01.701" out="00:00:04.436"/>
+    <entry producer="producer119" in="00:00:00.000" out="00:00:01.601"/>
     <entry producer="tractor15" in="00:00:00.000" out="00:00:01.434"/>
-    <entry producer="producer120" in="00:00:01.468" out="00:00:02.935"/>
-    <entry producer="producer121" in="00:00:00.000" out="00:00:02.468"/>
+    <entry producer="producer122" in="00:00:01.468" out="00:00:02.935"/>
+    <entry producer="producer123" in="00:00:00.000" out="00:00:02.468"/>
     <entry producer="tractor16" in="00:00:00.000" out="00:00:01.935"/>
-    <entry producer="producer122" in="00:00:01.968" out="00:00:03.002"/>
+    <entry producer="producer124" in="00:00:01.968" out="00:00:03.002"/>
     <entry producer="tractor17" in="00:00:00.000" out="00:00:01.401"/>
-    <entry producer="producer123" in="00:00:01.434" out="00:00:02.568"/>
+    <entry producer="producer125" in="00:00:01.434" out="00:00:02.568"/>
     <entry producer="tractor18" in="00:00:00.000" out="00:00:01.834"/>
-    <entry producer="producer125" in="00:00:16.210" out="00:00:18.211"/>
-    <entry producer="producer126" in="00:00:00.000" out="00:00:02.368"/>
+    <entry producer="producer127" in="00:00:16.210" out="00:00:18.211"/>
+    <entry producer="producer128" in="00:00:00.000" out="00:00:02.368"/>
     <entry producer="tractor19" in="00:00:00.000" out="00:00:02.035"/>
-    <entry producer="producer127" in="00:00:02.068" out="00:00:02.868"/>
+    <entry producer="producer129" in="00:00:02.068" out="00:00:02.868"/>
     <entry producer="tractor20" in="00:00:00.000" out="00:00:01.534"/>
-    <entry producer="producer128" in="00:00:01.568" out="00:00:02.668"/>
+    <entry producer="producer130" in="00:00:01.568" out="00:00:02.668"/>
     <entry producer="tractor21" in="00:00:00.000" out="00:00:01.734"/>
-    <entry producer="producer129" in="00:00:01.768" out="00:00:02.968"/>
+    <entry producer="producer131" in="00:00:01.768" out="00:00:02.968"/>
     <entry producer="tractor22" in="00:00:00.000" out="00:00:01.434"/>
-    <entry producer="producer131" in="00:00:01.468" out="00:00:17.444"/>
+    <entry producer="producer133" in="00:00:01.468" out="00:00:17.444"/>
     <entry producer="tractor23" in="00:00:00.000" out="00:00:01.701"/>
-    <entry producer="producer133" in="00:00:01.734" out="00:00:02.835"/>
+    <entry producer="producer135" in="00:00:01.734" out="00:00:02.835"/>
     <entry producer="tractor24" in="00:00:00.000" out="00:00:01.568"/>
-    <entry producer="producer134" in="00:00:01.601" out="00:00:02.968"/>
+    <entry producer="producer136" in="00:00:01.601" out="00:00:02.968"/>
     <entry producer="tractor25" in="00:00:00.000" out="00:00:01.434"/>
-    <entry producer="producer135" in="00:00:01.468" out="00:00:05.503"/>
+    <entry producer="producer138" in="00:00:01.468" out="00:00:05.503"/>
     <entry producer="tractor26" in="00:00:00.000" out="00:00:02.268"/>
-    <entry producer="producer136" in="00:00:02.301" out="00:00:03.035"/>
+    <entry producer="producer139" in="00:00:02.301" out="00:00:03.035"/>
     <entry producer="tractor27" in="00:00:00.000" out="00:00:01.367"/>
-    <entry producer="producer137" in="00:00:01.401" out="00:00:03.669"/>
-    <entry producer="producer138" in="00:00:00.000" out="00:00:02.768"/>
+    <entry producer="producer141" in="00:00:01.401" out="00:00:03.669"/>
+    <entry producer="producer142" in="00:00:00.000" out="00:00:02.768"/>
     <entry producer="tractor28" in="00:00:00.000" out="00:00:01.634"/>
-    <entry producer="producer139" in="00:00:01.668" out="00:00:04.336"/>
-    <entry producer="producer140" in="00:00:00.000" out="00:00:02.902"/>
-    <entry producer="producer141" in="00:00:06.637" out="00:00:13.942"/>
-    <entry producer="producer142" in="00:00:00.000" out="00:00:03.602"/>
-    <entry producer="producer143" in="00:00:00.000" out="00:00:17.544"/>
-    <entry producer="producer144" in="00:00:00.000" out="00:00:03.736"/>
-    <entry producer="producer145" in="00:00:00.000" out="00:00:04.503"/>
+    <entry producer="producer144" in="00:00:01.668" out="00:00:04.336"/>
+    <entry producer="producer145" in="00:00:00.000" out="00:00:02.902"/>
+    <entry producer="producer146" in="00:00:06.637" out="00:00:13.942"/>
+    <entry producer="producer147" in="00:00:00.000" out="00:00:03.602"/>
+    <entry producer="producer148" in="00:00:00.000" out="00:00:17.544"/>
+    <entry producer="producer149" in="00:00:00.000" out="00:00:03.736"/>
+    <entry producer="producer150" in="00:00:00.000" out="00:00:04.503"/>
     <entry producer="tractor29" in="00:00:00.000" out="00:00:01.634"/>
-    <entry producer="producer146" in="00:00:01.668" out="00:00:02.602"/>
+    <entry producer="producer152" in="00:00:01.668" out="00:00:02.602"/>
     <entry producer="tractor30" in="00:00:00.000" out="00:00:01.801"/>
-    <entry producer="producer147" in="00:00:01.834" out="00:00:04.970"/>
+    <entry producer="producer153" in="00:00:01.834" out="00:00:04.970"/>
     <entry producer="tractor31" in="00:00:00.000" out="00:00:02.135"/>
-    <entry producer="producer148" in="00:00:02.168" out="00:00:13.975"/>
+    <entry producer="producer155" in="00:00:02.168" out="00:00:13.975"/>
     <entry producer="tractor32" in="00:00:00.000" out="00:00:02.935"/>
-    <entry producer="producer149" in="00:00:02.968" out="00:00:16.610"/>
+    <entry producer="producer156" in="00:00:02.968" out="00:00:16.610"/>
     <entry producer="tractor33" in="00:00:00.000" out="00:00:01.801"/>
-    <entry producer="producer150" in="00:00:01.834" out="00:00:03.535"/>
-    <entry producer="producer151" in="00:00:00.000" out="00:00:08.205"/>
-    <entry producer="producer152" in="00:00:00.000" out="00:00:04.303"/>
-    <entry producer="producer153" in="00:00:00.000" out="00:00:05.437"/>
+    <entry producer="producer158" in="00:00:01.834" out="00:00:03.535"/>
+    <entry producer="producer159" in="00:00:00.000" out="00:00:08.205"/>
+    <entry producer="producer160" in="00:00:00.000" out="00:00:04.303"/>
+    <entry producer="producer161" in="00:00:00.000" out="00:00:05.437"/>
     <entry producer="tractor34" in="00:00:00.000" out="00:00:02.235"/>
-    <entry producer="producer154" in="00:00:04.102" out="00:00:06.571"/>
+    <entry producer="producer162" in="00:00:04.102" out="00:00:06.571"/>
     <entry producer="tractor35" in="00:00:00.000" out="00:00:02.068"/>
-    <entry producer="producer155" in="00:00:02.101" out="00:00:04.436"/>
-    <entry producer="producer156" in="00:00:00.000" out="00:00:02.868"/>
+    <entry producer="producer163" in="00:00:02.101" out="00:00:04.436"/>
+    <entry producer="producer164" in="00:00:00.000" out="00:00:02.868"/>
     <entry producer="tractor36" in="00:00:00.000" out="00:00:01.534"/>
-    <entry producer="producer157" in="00:00:01.568" out="00:00:08.105"/>
-    <entry producer="producer158" in="00:00:00.000" out="00:00:04.436"/>
-    <entry producer="producer159" in="00:00:00.000" out="00:00:04.436"/>
-    <entry producer="producer160" in="00:00:00.000" out="00:00:02.235"/>
+    <entry producer="producer166" in="00:00:01.568" out="00:00:08.105"/>
+    <entry producer="producer167" in="00:00:00.000" out="00:00:04.436"/>
+    <entry producer="producer168" in="00:00:00.000" out="00:00:04.436"/>
+    <entry producer="producer169" in="00:00:00.000" out="00:00:02.235"/>
     <entry producer="tractor37" in="00:00:00.000" out="00:00:02.168"/>
-    <entry producer="producer161" in="00:00:02.201" out="00:00:07.438"/>
+    <entry producer="producer171" in="00:00:02.201" out="00:00:07.438"/>
     <entry producer="tractor38" in="00:00:00.000" out="00:00:01.734"/>
-    <entry producer="producer162" in="00:00:01.768" out="00:00:04.436"/>
-    <entry producer="producer163" in="00:00:00.000" out="00:00:02.702"/>
+    <entry producer="producer172" in="00:00:01.768" out="00:00:04.436"/>
+    <entry producer="producer173" in="00:00:00.000" out="00:00:02.702"/>
     <entry producer="tractor39" in="00:00:00.000" out="00:00:01.701"/>
-    <entry producer="producer164" in="00:00:01.734" out="00:00:02.802"/>
+    <entry producer="producer174" in="00:00:01.734" out="00:00:02.802"/>
     <entry producer="tractor40" in="00:00:00.000" out="00:00:01.601"/>
-    <entry producer="producer165" in="00:00:01.634" out="00:00:02.602"/>
+    <entry producer="producer175" in="00:00:01.634" out="00:00:02.602"/>
     <entry producer="tractor41" in="00:00:00.000" out="00:00:01.801"/>
-    <entry producer="producer166" in="00:00:01.834" out="00:00:04.636"/>
+    <entry producer="producer176" in="00:00:01.834" out="00:00:04.636"/>
     <entry producer="tractor42" in="00:00:00.000" out="00:00:01.801"/>
-    <entry producer="producer167" in="00:00:01.834" out="00:00:05.003"/>
+    <entry producer="producer177" in="00:00:01.834" out="00:00:05.003"/>
     <entry producer="tractor43" in="00:00:00.000" out="00:00:02.135"/>
-    <entry producer="producer168" in="00:00:02.368" out="00:00:04.603"/>
+    <entry producer="producer178" in="00:00:02.368" out="00:00:04.603"/>
     <entry producer="tractor44" in="00:00:00.000" out="00:00:01.834"/>
-    <entry producer="producer169" in="00:00:01.868" out="00:00:05.136"/>
+    <entry producer="producer179" in="00:00:01.868" out="00:00:05.136"/>
     <entry producer="tractor45" in="00:00:00.000" out="00:00:02.068"/>
-    <entry producer="producer170" in="00:00:02.101" out="00:00:04.102"/>
+    <entry producer="producer180" in="00:00:02.101" out="00:00:04.102"/>
     <entry producer="tractor46" in="00:00:00.000" out="00:00:02.135"/>
-    <entry producer="producer171" in="00:00:02.168" out="00:00:03.469"/>
+    <entry producer="producer181" in="00:00:02.168" out="00:00:03.469"/>
     <entry producer="tractor47" in="00:00:00.000" out="00:00:02.235"/>
-    <entry producer="producer172" in="00:00:02.268" out="00:00:04.303"/>
+    <entry producer="producer182" in="00:00:02.268" out="00:00:04.303"/>
     <entry producer="tractor48" in="00:00:00.000" out="00:00:02.768"/>
-    <entry producer="producer173" in="00:00:02.802" out="00:00:05.970"/>
+    <entry producer="producer183" in="00:00:02.802" out="00:00:05.970"/>
     <entry producer="tractor49" in="00:00:00.000" out="00:00:02.168"/>
-    <entry producer="producer174" in="00:00:02.201" out="00:00:07.671"/>
+    <entry producer="producer184" in="00:00:02.201" out="00:00:07.671"/>
     <entry producer="tractor50" in="00:00:00.000" out="00:00:02.635"/>
-    <entry producer="producer175" in="00:00:02.668" out="00:00:06.837"/>
+    <entry producer="producer185" in="00:00:02.668" out="00:00:06.837"/>
     <entry producer="tractor51" in="00:00:00.000" out="00:00:02.001"/>
-    <entry producer="producer176" in="00:00:02.035" out="00:00:16.143"/>
+    <entry producer="producer186" in="00:00:02.035" out="00:00:16.143"/>
     <entry producer="tractor52" in="00:00:00.000" out="00:00:02.235"/>
-    <entry producer="producer178" in="00:00:02.268" out="00:00:09.873"/>
+    <entry producer="producer188" in="00:00:02.268" out="00:00:09.873"/>
   </playlist>
-  <producer id="producer179" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer189" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -3823,7 +3965,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer180" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer190" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -3852,11 +3994,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V2</property>
-    <entry producer="producer179" in="00:00:00.000" out="00:00:03.969"/>
+    <entry producer="producer189" in="00:00:00.000" out="00:00:03.969"/>
     <blank length="00:06:41.759"/>
-    <entry producer="producer180" in="00:00:00.000" out="00:00:03.969"/>
+    <entry producer="producer190" in="00:00:00.000" out="00:00:03.969"/>
   </playlist>
-  <producer id="producer181" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer191" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -3882,7 +4024,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer182" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
+  <producer id="producer192" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
@@ -3911,11 +4053,11 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   <playlist id="playlist2">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V3</property>
-    <entry producer="producer181" in="00:00:00.000" out="00:00:03.969"/>
+    <entry producer="producer191" in="00:00:00.000" out="00:00:03.969"/>
     <blank length="00:06:41.759"/>
-    <entry producer="producer182" in="00:00:00.000" out="00:00:03.969"/>
+    <entry producer="producer192" in="00:00:00.000" out="00:00:03.969"/>
   </playlist>
-  <producer id="producer183" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
+  <producer id="producer193" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
     <property name="length">3133</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
@@ -3936,7 +4078,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer184" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
+  <producer id="producer194" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
     <property name="length">3133</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
@@ -3957,7 +4099,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer185" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
+  <producer id="producer195" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
     <property name="length">3133</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
@@ -3978,7 +4120,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer186" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
+  <producer id="producer196" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.494">
     <property name="length">3133</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
@@ -3999,7 +4141,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer187" title="Anonymous Submission" in="00:00:00.000" out="00:03:10.273">
+  <producer id="producer197" title="Anonymous Submission" in="00:00:00.000" out="00:03:10.273">
     <property name="length">5705</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Lucid_Dreamer.mp3</property>
@@ -4013,24 +4155,140 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:hash">60ec70e88bd6f481556d59b13f91ec68</property>
     <property name="shotcut:caption">Lucid_Dreamer.mp3</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Lucid_Dreamer.mp3</property>
-    <filter id="filter8" out="00:03:10.273">
+    <filter id="filter8" out="00:01:11.440">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-20</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
+  <producer id="producer198" title="Anonymous Submission" in="00:00:00.000" out="00:03:10.273">
+    <property name="length">5705</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Lucid_Dreamer.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">60ec70e88bd6f481556d59b13f91ec68</property>
+    <property name="shotcut:caption">Lucid_Dreamer.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Lucid_Dreamer.mp3</property>
+    <filter id="filter9" in="00:01:11.474" out="00:01:14.642">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-20;00:00:03.169=-50</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer199" title="Anonymous Submission" in="00:00:00.000" out="00:01:52.565">
+    <property name="length">3375</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a1f35d09e0da60e54065b152685427e4</property>
+    <property name="shotcut:caption">I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <filter id="filter10" out="00:00:20.512">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-20</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer200" title="Anonymous Submission" in="00:00:00.000" out="00:01:52.565">
+    <property name="length">3375</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a1f35d09e0da60e54065b152685427e4</property>
+    <property name="shotcut:caption">I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <filter id="filter11" in="00:00:20.546" out="00:00:37.956">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer201" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.505">
+    <property name="length">7421</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Deck_the_Halls.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">176813c96006edc6c78849675362f7c2</property>
+    <property name="shotcut:caption">Deck_the_Halls.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Deck_the_Halls.mp3</property>
+    <filter id="filter16" out="00:03:08.839">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-20</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer202" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.505">
+    <property name="length">7421</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Deck_the_Halls.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">176813c96006edc6c78849675362f7c2</property>
+    <property name="shotcut:caption">Deck_the_Halls.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Deck_the_Halls.mp3</property>
+    <filter id="filter17" in="00:03:08.872" out="00:03:16.377">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-20;00:00:07.404=-50;00:00:07.505=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
   <playlist id="playlist3">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
-    <entry producer="producer183" in="00:00:00.000" out="00:00:23.114"/>
+    <entry producer="producer193" in="00:00:00.000" out="00:00:23.114"/>
     <blank length="00:00:00.033"/>
-    <entry producer="producer184" in="00:00:23.147" out="00:00:51.131"/>
-    <entry producer="producer185" in="00:00:51.164" out="00:00:57.468"/>
-    <entry producer="producer186" in="00:00:57.502" out="00:01:37.456"/>
-    <entry producer="producer187" in="00:00:00.000" out="00:03:10.273"/>
+    <entry producer="producer194" in="00:00:23.147" out="00:00:51.131"/>
+    <entry producer="producer195" in="00:00:51.164" out="00:00:57.468"/>
+    <entry producer="producer196" in="00:00:57.502" out="00:01:37.456"/>
+    <entry producer="producer197" in="00:00:00.000" out="00:01:11.440"/>
+    <entry producer="producer198" in="00:01:11.474" out="00:01:14.642"/>
+    <blank length="00:00:01.701"/>
+    <entry producer="producer199" in="00:00:00.000" out="00:00:20.512"/>
+    <entry producer="producer200" in="00:00:20.546" out="00:00:37.956"/>
+    <blank length="00:00:01.468"/>
+    <entry producer="producer201" in="00:00:00.000" out="00:03:08.839"/>
+    <entry producer="producer202" in="00:03:08.872" out="00:03:16.377"/>
   </playlist>
-  <producer id="producer188" title="Anonymous Submission" in="00:00:00.000" out="00:00:15.576">
+  <producer id="producer203" title="Anonymous Submission" in="00:00:00.000" out="00:00:15.576">
     <property name="length">468</property>
     <property name="eof">pause</property>
     <property name="resource">0.8:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\duong di\20181223_120337_duong di 5.mp4</property>
@@ -4047,14 +4305,14 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:hash">7c739e007da6bea894f8449ccacb0e21</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter9" out="00:00:07.972">
+    <filter id="filter18" out="00:00:07.972">
       <property name="mlt_service">avfilter.hue</property>
       <property name="av.h">0</property>
       <property name="av.b">-1</property>
       <property name="av.s">1</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter10" out="00:00:07.972">
+    <filter id="filter19" out="00:00:07.972">
       <property name="argument">NHỮNG ƯỚC MƠ XANH
 </property>
       <property name="geometry">0 -135 1280 720 1</property>
@@ -4077,7 +4335,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="shotcut:pointSize">30</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter11" out="00:00:07.972">
+    <filter id="filter20" out="00:00:07.972">
       <property name="argument">CHƯƠNG TRÌNH
 ÁO ẤM MÙA ĐÔNG</property>
       <property name="geometry">0 -60 1280 720 1</property>
@@ -4100,7 +4358,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
       <property name="shotcut:pointSize">40</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter16" out="00:00:07.972">
+    <filter id="filter21" out="00:00:07.972">
       <property name="argument">22/12/2018
 XÃ IA K ĐĂM,
 HUYỆN IA PA, TỈNH GiA LAI</property>
@@ -4128,7 +4386,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
   <playlist id="playlist4">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A2</property>
-    <entry producer="producer188" in="00:00:00.000" out="00:00:07.038"/>
+    <entry producer="producer203" in="00:00:00.000" out="00:00:07.038"/>
   </playlist>
   <tractor id="tractor53" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:06:49.730">
     <property name="shotcut">1</property>
