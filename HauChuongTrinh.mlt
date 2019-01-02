@@ -426,6 +426,45 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">784b68004088963847245ff633f9669a</property>
   </producer>
+  <producer id="producer32" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.440">
+    <property name="length">2612</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">c44071066a1805cf39b6813704407731</property>
+  </producer>
+  <producer id="producer33" title="Anonymous Submission" in="00:00:00.000" out="00:01:52.520">
+    <property name="length">2814</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/I_Have_a_Little_Dreidel_Instrumental.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a1f35d09e0da60e54065b152685427e4</property>
+  </producer>
+  <producer id="producer34" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+  </producer>
   <playlist id="main_bin" title="Shotcut version 18.12.23">
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
@@ -462,9 +501,12 @@
     <entry producer="producer29" in="00:00:00.000" out="00:00:25.600"/>
     <entry producer="producer30" in="00:00:00.000" out="00:00:04.440"/>
     <entry producer="producer31" in="00:00:00.000" out="00:00:49.760"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:01:44.440"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:01:52.520"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:04.440"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:04:47.760">
-    <property name="length">7195</property>
+  <producer id="black" in="00:00:00.000" out="00:04:47.520">
+    <property name="length">7189</property>
     <property name="eof">pause</property>
     <property name="resource">black</property>
     <property name="aspect_ratio">1</property>
@@ -473,23 +515,22 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:04:47.760"/>
+    <entry producer="black" in="00:00:00.000" out="00:04:47.520"/>
   </playlist>
-  <producer id="producer32" title="Anonymous Submission" in="00:00:00.000" out="00:00:07.680">
+  <producer id="producer35" title="Anonymous Submission" in="00:00:00.000" out="00:00:07.680">
     <property name="length">193</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Chuong trinh chinh/20181222_171402_nhom 6.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_171402_nhom 6.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">6d9eae9c0acdc5eb052393b8761809b5</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">6d9eae9c0acdc5eb052393b8761809b5</property>
-    <property name="shotcut:caption">20181222_171402_nhom 6.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_171402_nhom 6.mp4</property>
     <filter id="filter0" out="00:00:07.680">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:01.960=1</property>
@@ -499,7 +540,7 @@
       <property name="shotcut:animIn">00:00:02.000</property>
     </filter>
   </producer>
-  <producer id="producer33" title="Anonymous Submission" in="00:00:00.000" out="00:00:33.480">
+  <producer id="producer36" title="Anonymous Submission" in="00:00:00.000" out="00:00:33.480">
     <property name="length">838</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_165702_nhom 1.mp4</property>
@@ -515,7 +556,7 @@
     <property name="shotcut:caption">20181222_165702_nhom 1.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_165702_nhom 1.mp4</property>
   </producer>
-  <producer id="producer34" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer37" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/_MG_7784.JPG</property>
@@ -541,7 +582,7 @@
       <property name="transition.scale_y">00:00:00.000=1;00:00:04.440=0.909091</property>
     </filter>
   </producer>
-  <producer id="producer35" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer38" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_170722_nhom 2.jpg</property>
@@ -567,8 +608,8 @@
   </producer>
   <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.520">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer34" in="00:00:02.800" out="00:00:04.320"/>
-    <track producer="producer35" in="00:00:01.800" out="00:00:03.320"/>
+    <track producer="producer37" in="00:00:02.800" out="00:00:04.320"/>
+    <track producer="producer38" in="00:00:01.800" out="00:00:03.320"/>
     <transition id="transition0" out="00:00:01.520">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -583,7 +624,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer36" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer39" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_170845_nhom 3.jpg</property>
@@ -598,8 +639,8 @@
   </producer>
   <tractor id="tractor1" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.520">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer35" in="00:00:05.200" out="00:00:06.720"/>
-    <track producer="producer36" in="00:00:00.000" out="00:00:01.520"/>
+    <track producer="producer38" in="00:00:05.200" out="00:00:06.720"/>
+    <track producer="producer39" in="00:00:00.000" out="00:00:01.520"/>
     <transition id="transition2" out="00:00:01.520">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -614,7 +655,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer37" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer40" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_171300_nhom 5.jpg</property>
@@ -629,8 +670,8 @@
   </producer>
   <tractor id="tractor2" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.600">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer36" in="00:00:03.480" out="00:00:05.080"/>
-    <track producer="producer37" in="00:00:00.000" out="00:00:01.600"/>
+    <track producer="producer39" in="00:00:03.480" out="00:00:05.080"/>
+    <track producer="producer40" in="00:00:00.000" out="00:00:01.600"/>
     <transition id="transition4" out="00:00:01.600">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -645,7 +686,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer38" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer41" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/45 336.JPG</property>
@@ -673,8 +714,8 @@
   </producer>
   <tractor id="tractor3" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.560">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer37" in="00:00:03.720" out="00:00:05.280"/>
-    <track producer="producer38" in="00:00:00.000" out="00:00:01.560"/>
+    <track producer="producer40" in="00:00:03.720" out="00:00:05.280"/>
+    <track producer="producer41" in="00:00:00.000" out="00:00:01.560"/>
     <transition id="transition6" out="00:00:01.560">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -689,7 +730,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer39" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer42" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/DSCF4336.JPG</property>
@@ -704,8 +745,8 @@
   </producer>
   <tractor id="tractor4" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.960">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer38" in="00:00:04.600" out="00:00:06.560"/>
-    <track producer="producer39" in="00:00:00.000" out="00:00:01.960"/>
+    <track producer="producer41" in="00:00:04.600" out="00:00:06.560"/>
+    <track producer="producer42" in="00:00:00.000" out="00:00:01.960"/>
     <transition id="transition8" out="00:00:01.960">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -720,7 +761,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer40" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer43" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/IMG_8206.JPG</property>
@@ -748,8 +789,8 @@
   </producer>
   <tractor id="tractor5" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.520">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer39" in="00:00:04.240" out="00:00:05.760"/>
-    <track producer="producer40" in="00:00:01.520" out="00:00:03.040"/>
+    <track producer="producer42" in="00:00:04.240" out="00:00:05.760"/>
+    <track producer="producer43" in="00:00:01.520" out="00:00:03.040"/>
     <transition id="transition10" out="00:00:01.520">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -764,7 +805,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer41" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer44" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/45 341.JPG</property>
@@ -792,8 +833,8 @@
   </producer>
   <tractor id="tractor6" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.640">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer40" in="00:00:06.680" out="00:00:08.320"/>
-    <track producer="producer41" in="00:00:00.000" out="00:00:01.640"/>
+    <track producer="producer43" in="00:00:06.680" out="00:00:08.320"/>
+    <track producer="producer44" in="00:00:00.000" out="00:00:01.640"/>
     <transition id="transition12" out="00:00:01.640">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -808,7 +849,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer42" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer45" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/_MG_8583.JPG</property>
@@ -834,8 +875,8 @@
   </producer>
   <tractor id="tractor7" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.600">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer41" in="00:00:04.280" out="00:00:05.880"/>
-    <track producer="producer42" in="00:00:00.000" out="00:00:01.600"/>
+    <track producer="producer44" in="00:00:04.280" out="00:00:05.880"/>
+    <track producer="producer45" in="00:00:00.000" out="00:00:01.600"/>
     <transition id="transition14" out="00:00:01.600">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -850,7 +891,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer43" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer46" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/_MG_8584.JPG</property>
@@ -878,8 +919,8 @@
   </producer>
   <tractor id="tractor8" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.360">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer42" in="00:00:04.480" out="00:00:05.840"/>
-    <track producer="producer43" in="00:00:00.000" out="00:00:01.360"/>
+    <track producer="producer45" in="00:00:04.480" out="00:00:05.840"/>
+    <track producer="producer46" in="00:00:00.000" out="00:00:01.360"/>
     <transition id="transition16" out="00:00:01.360">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -894,7 +935,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer44" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer47" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/_MG_8587.JPG</property>
@@ -933,8 +974,8 @@
   </producer>
   <tractor id="tractor9" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.600">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer43" in="00:00:04.880" out="00:00:06.480"/>
-    <track producer="producer44" in="00:00:00.000" out="00:00:01.600"/>
+    <track producer="producer46" in="00:00:04.880" out="00:00:06.480"/>
+    <track producer="producer47" in="00:00:00.000" out="00:00:01.600"/>
     <transition id="transition18" out="00:00:01.600">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -949,31 +990,30 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer45" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.240">
+  <producer id="producer48" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.240">
     <property name="length">157</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_185631_an toi.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_185631_an toi.mp4</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">971810d9abc3270b40bf0fb895d440ce</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">971810d9abc3270b40bf0fb895d440ce</property>
-    <property name="shotcut:caption">20181222_185631_an toi.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_185631_an toi.mp4</property>
     <filter id="filter10" out="00:00:06.240">
       <property name="start">1</property>
-      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="level">0=0;24=1</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeInBrightness</property>
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer46" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer49" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/_UAN0586.JPG</property>
@@ -986,7 +1026,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">b09d41f9b93f6877b585bba7ef138b65</property>
   </producer>
-  <producer id="producer47" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer50" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/IMG_8528.JPG</property>
@@ -1001,8 +1041,8 @@
   </producer>
   <tractor id="tractor10" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.640">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer46" in="00:00:02.800" out="00:00:04.440"/>
-    <track producer="producer47" in="00:00:00.000" out="00:00:01.640"/>
+    <track producer="producer49" in="00:00:02.800" out="00:00:04.440"/>
+    <track producer="producer50" in="00:00:00.000" out="00:00:01.640"/>
     <transition id="transition20" out="00:00:01.640">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1017,7 +1057,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer48" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.000">
+  <producer id="producer51" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.000">
     <property name="length">726</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_182222_cong chien 2.mp4</property>
@@ -1035,8 +1075,8 @@
   </producer>
   <tractor id="tractor11" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.840">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer47" in="00:00:06.120" out="00:00:07.960"/>
-    <track producer="producer48" in="00:00:00.000" out="00:00:01.840"/>
+    <track producer="producer50" in="00:00:06.120" out="00:00:07.960"/>
+    <track producer="producer51" in="00:00:00.000" out="00:00:01.840"/>
     <transition id="transition22" out="00:00:01.840">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1051,54 +1091,6 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer49" title="Anonymous Submission" in="00:00:00.000" out="00:04:37.080">
-    <property name="length">6928</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_181608_cong chien 1.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">b9ee89264653d5379b42413dcedc3995</property>
-    <property name="shotcut:caption">20181222_181608_cong chien 1.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_181608_cong chien 1.mp4</property>
-  </producer>
-  <producer id="producer50" title="Anonymous Submission" in="00:00:00.000" out="00:04:37.080">
-    <property name="length">6928</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_181608_cong chien 1.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">b9ee89264653d5379b42413dcedc3995</property>
-    <property name="shotcut:caption">20181222_181608_cong chien 1.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_181608_cong chien 1.mp4</property>
-  </producer>
-  <producer id="producer51" title="Anonymous Submission" in="00:00:00.000" out="00:04:37.080">
-    <property name="length">6928</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_181608_cong chien 1.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">b9ee89264653d5379b42413dcedc3995</property>
-    <property name="shotcut:caption">20181222_181608_cong chien 1.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_181608_cong chien 1.mp4</property>
-  </producer>
   <producer id="producer52" title="Anonymous Submission" in="00:00:00.000" out="00:04:37.080">
     <property name="length">6928</property>
     <property name="eof">pause</property>
@@ -1115,7 +1107,55 @@
     <property name="shotcut:caption">20181222_181608_cong chien 1.mp4</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_181608_cong chien 1.mp4</property>
   </producer>
-  <producer id="producer53" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer53" title="Anonymous Submission" in="00:00:00.000" out="00:04:37.080">
+    <property name="length">6928</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_181608_cong chien 1.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b9ee89264653d5379b42413dcedc3995</property>
+    <property name="shotcut:caption">20181222_181608_cong chien 1.mp4</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_181608_cong chien 1.mp4</property>
+  </producer>
+  <producer id="producer54" title="Anonymous Submission" in="00:00:00.000" out="00:04:37.080">
+    <property name="length">6928</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_181608_cong chien 1.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b9ee89264653d5379b42413dcedc3995</property>
+    <property name="shotcut:caption">20181222_181608_cong chien 1.mp4</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_181608_cong chien 1.mp4</property>
+  </producer>
+  <producer id="producer55" title="Anonymous Submission" in="00:00:00.000" out="00:04:37.080">
+    <property name="length">6928</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/20181222_181608_cong chien 1.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b9ee89264653d5379b42413dcedc3995</property>
+    <property name="shotcut:caption">20181222_181608_cong chien 1.mp4</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\hậu chuong trinh\20181222_181608_cong chien 1.mp4</property>
+  </producer>
+  <producer id="producer56" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/_MG_8617.JPG</property>
@@ -1143,8 +1183,8 @@
   </producer>
   <tractor id="tractor12" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.040">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer52" in="00:03:01.800" out="00:03:03.840"/>
-    <track producer="producer53" in="00:00:00.000" out="00:00:02.040"/>
+    <track producer="producer55" in="00:03:01.800" out="00:03:03.840"/>
+    <track producer="producer56" in="00:00:00.000" out="00:00:02.040"/>
     <transition id="transition24" out="00:00:02.040">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1158,8 +1198,16 @@
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
     </transition>
+    <filter id="filter12" out="00:00:02.040">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=0;00:00:02.040=-50</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </tractor>
-  <producer id="producer54" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer57" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/hậu chuong trinh/_UAN0629 CB.JPG</property>
@@ -1174,8 +1222,8 @@
   </producer>
   <tractor id="tractor13" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.800">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer53" in="00:00:05.360" out="00:00:07.160"/>
-    <track producer="producer54" in="00:00:00.000" out="00:00:01.800"/>
+    <track producer="producer56" in="00:00:05.360" out="00:00:07.160"/>
+    <track producer="producer57" in="00:00:00.000" out="00:00:01.800"/>
     <transition id="transition26" out="00:00:01.800">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1190,7 +1238,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer55" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer58" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/_UAN0654 CA.JPG</property>
@@ -1205,8 +1253,8 @@
   </producer>
   <tractor id="tractor14" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.600">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer54" in="00:00:03.440" out="00:00:05.040"/>
-    <track producer="producer55" in="00:00:00.000" out="00:00:01.600"/>
+    <track producer="producer57" in="00:00:03.440" out="00:00:05.040"/>
+    <track producer="producer58" in="00:00:00.000" out="00:00:01.600"/>
     <transition id="transition28" out="00:00:01.600">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1221,7 +1269,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer56" title="Anonymous Submission" in="00:00:00.000" out="00:00:10.080">
+  <producer id="producer59" title="Anonymous Submission" in="00:00:00.000" out="00:00:10.080">
     <property name="length">253</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/20181223_124617.mp4</property>
@@ -1239,8 +1287,8 @@
   </producer>
   <tractor id="tractor15" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.480">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer55" in="00:00:02.960" out="00:00:04.440"/>
-    <track producer="producer56" in="00:00:00.000" out="00:00:01.480"/>
+    <track producer="producer58" in="00:00:02.960" out="00:00:04.440"/>
+    <track producer="producer59" in="00:00:00.000" out="00:00:01.480"/>
     <transition id="transition30" out="00:00:01.480">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1255,7 +1303,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer57" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer60" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/_UAN0663.JPG</property>
@@ -1267,7 +1315,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">d3529958526be43f3c3f57c9e7a8a644</property>
-    <filter id="filter12" out="00:00:04.440">
+    <filter id="filter13" out="00:00:04.440">
       <property name="background">colour:0</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineRotate</property>
@@ -1283,8 +1331,8 @@
   </producer>
   <tractor id="tractor16" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.680">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer56" in="00:00:08.400" out="00:00:10.080"/>
-    <track producer="producer57" in="00:00:00.000" out="00:00:01.680"/>
+    <track producer="producer59" in="00:00:08.400" out="00:00:10.080"/>
+    <track producer="producer60" in="00:00:00.000" out="00:00:01.680"/>
     <transition id="transition32" out="00:00:01.680">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1299,7 +1347,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer58" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer61" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/_UAN0658.JPG</property>
@@ -1311,7 +1359,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">9acd006ecf7473be169e2ab7fe0d0d8d</property>
-    <filter id="filter13" out="00:00:04.440">
+    <filter id="filter14" out="00:00:04.440">
       <property name="background">colour:0</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineRotate</property>
@@ -1325,8 +1373,8 @@
   </producer>
   <tractor id="tractor17" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.400">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer57" in="00:00:03.040" out="00:00:04.440"/>
-    <track producer="producer58" in="00:00:00.000" out="00:00:01.400"/>
+    <track producer="producer60" in="00:00:03.040" out="00:00:04.440"/>
+    <track producer="producer61" in="00:00:00.000" out="00:00:01.400"/>
     <transition id="transition34" out="00:00:01.400">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1341,7 +1389,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer59" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer62" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/IMG_0753.JPG</property>
@@ -1356,8 +1404,8 @@
   </producer>
   <tractor id="tractor18" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.400">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer58" in="00:00:03.040" out="00:00:04.440"/>
-    <track producer="producer59" in="00:00:00.000" out="00:00:01.400"/>
+    <track producer="producer61" in="00:00:03.040" out="00:00:04.440"/>
+    <track producer="producer62" in="00:00:00.000" out="00:00:01.400"/>
     <transition id="transition36" out="00:00:01.400">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1372,7 +1420,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer60" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer63" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/IMG_0782.JPG</property>
@@ -1387,8 +1435,8 @@
   </producer>
   <tractor id="tractor19" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.760">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer59" in="00:00:02.680" out="00:00:04.440"/>
-    <track producer="producer60" in="00:00:00.000" out="00:00:01.760"/>
+    <track producer="producer62" in="00:00:02.680" out="00:00:04.440"/>
+    <track producer="producer63" in="00:00:00.000" out="00:00:01.760"/>
     <transition id="transition38" out="00:00:01.760">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1403,7 +1451,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer61" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer64" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/20181223_141029.jpg</property>
@@ -1418,8 +1466,8 @@
   </producer>
   <tractor id="tractor20" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.200">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer60" in="00:00:03.240" out="00:00:04.440"/>
-    <track producer="producer61" in="00:00:00.000" out="00:00:01.200"/>
+    <track producer="producer63" in="00:00:03.240" out="00:00:04.440"/>
+    <track producer="producer64" in="00:00:00.000" out="00:00:01.200"/>
     <transition id="transition40" out="00:00:01.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1434,7 +1482,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer62" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.600">
+  <producer id="producer65" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.600">
     <property name="length">641</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/20181223_141034.mp4</property>
@@ -1452,8 +1500,8 @@
   </producer>
   <tractor id="tractor21" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.640">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer61" in="00:00:02.800" out="00:00:04.440"/>
-    <track producer="producer62" in="00:00:00.000" out="00:00:01.640"/>
+    <track producer="producer64" in="00:00:02.800" out="00:00:04.440"/>
+    <track producer="producer65" in="00:00:00.000" out="00:00:01.640"/>
     <transition id="transition42" out="00:00:01.640">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1468,7 +1516,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer63" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer66" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">360000</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/20181223_142055.jpg</property>
@@ -1481,7 +1529,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">e9f2e0788ddef00407fc11694ef0046f</property>
   </producer>
-  <producer id="producer64" title="Anonymous Submission" in="00:00:00.000" out="00:00:49.760">
+  <producer id="producer67" title="Anonymous Submission" in="00:00:00.000" out="00:00:49.760">
     <property name="length">1245</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/Kotam/20181223_141544.mp4</property>
@@ -1499,8 +1547,8 @@
   </producer>
   <tractor id="tractor22" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.960">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer63" in="00:00:02.480" out="00:00:04.440"/>
-    <track producer="producer64" in="00:00:00.000" out="00:00:01.960"/>
+    <track producer="producer66" in="00:00:02.480" out="00:00:04.440"/>
+    <track producer="producer67" in="00:00:00.000" out="00:00:01.960"/>
     <transition id="transition44" out="00:00:01.960">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1515,7 +1563,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer65" title="Anonymous Submission" in="00:00:00.000" out="00:01:11.080">
+  <producer id="producer68" title="Anonymous Submission" in="00:00:00.000" out="00:01:11.080">
     <property name="length">1778</property>
     <property name="eof">pause</property>
     <property name="resource">0.7:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Kotam\20181223_141544.mp4</property>
@@ -1535,7 +1583,7 @@
     <property name="shotcut:caption">20181223_141544.mp4 (0.7x)</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Kotam\20181223_141544.mp4</property>
   </producer>
-  <producer id="producer66" title="Anonymous Submission" in="00:00:00.000" out="00:00:55.280">
+  <producer id="producer69" title="Anonymous Submission" in="00:00:00.000" out="00:00:55.280">
     <property name="length">1383</property>
     <property name="eof">pause</property>
     <property name="resource">0.9:C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Kotam\20181223_141544.mp4</property>
@@ -1554,7 +1602,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">20181223_141544.mp4 (0.9x)</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Kotam\20181223_141544.mp4</property>
-    <filter id="filter14" in="00:00:48.760" out="00:00:55.280">
+    <filter id="filter15" in="00:00:48.760" out="00:00:55.280">
       <property name="start">1</property>
       <property name="level">00:00:04.560=1;00:00:06.520=0</property>
       <property name="mlt_service">brightness</property>
@@ -1565,8 +1613,8 @@
   </producer>
   <tractor id="tractor23" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.040">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer65" in="00:00:19.040" out="00:00:21.080"/>
-    <track producer="producer66" in="00:00:46.680" out="00:00:48.720"/>
+    <track producer="producer68" in="00:00:19.040" out="00:00:21.080"/>
+    <track producer="producer69" in="00:00:46.680" out="00:00:48.720"/>
     <transition id="transition46" out="00:00:02.040">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1576,80 +1624,241 @@
     <transition id="transition47" out="00:00:02.040">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
+  <producer id="producer70" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter16" out="00:00:09.080">
+      <property name="argument">The End</property>
+      <property name="geometry">00:00:00.000=0 600 1920 1080 1;00:00:04.440=0 0 1920 1080 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">83</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">50</property>
+    </filter>
+    <filter id="filter17" out="00:00:09.080">
+      <property name="start">1</property>
+      <property name="level">00:00:07.120=1;00:00:09.080=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:02.000</property>
+      <property name="geometry">00:00:08.120=0 0 0 0 1;00:00:09.080=0 0 0 0 1</property>
+    </filter>
+  </producer>
+  <producer id="producer71" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter18" in="00:00:09.120" out="00:00:09.160">
+      <property name="argument">The End</property>
+      <property name="geometry">00:00:00.000=0 600 1920 1080 1;00:00:04.440=0 0 1920 1080 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">83</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">50</property>
+    </filter>
+    <filter id="filter19" in="00:00:09.120" out="00:00:09.160">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0.0204082;00:00:00.040=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:02.000</property>
+      <property name="geometry">00:00:08.200=0 0 0 0 1;00:00:09.160=0 0 0 0 1</property>
+    </filter>
+  </producer>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <entry producer="producer32" in="00:00:00.000" out="00:00:07.680"/>
-    <entry producer="producer33" in="00:00:00.000" out="00:00:31.720"/>
-    <entry producer="producer34" in="00:00:00.000" out="00:00:02.760"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:07.680"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:00:31.720"/>
+    <entry producer="producer37" in="00:00:00.000" out="00:00:02.760"/>
     <entry producer="tractor0" in="00:00:00.000" out="00:00:01.520"/>
-    <entry producer="producer35" in="00:00:03.360" out="00:00:05.160"/>
+    <entry producer="producer38" in="00:00:03.360" out="00:00:05.160"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:01.520"/>
-    <entry producer="producer36" in="00:00:01.560" out="00:00:03.440"/>
+    <entry producer="producer39" in="00:00:01.560" out="00:00:03.440"/>
     <entry producer="tractor2" in="00:00:00.000" out="00:00:01.600"/>
-    <entry producer="producer37" in="00:00:01.640" out="00:00:03.680"/>
+    <entry producer="producer40" in="00:00:01.640" out="00:00:03.680"/>
     <entry producer="tractor3" in="00:00:00.000" out="00:00:01.560"/>
-    <entry producer="producer38" in="00:00:01.600" out="00:00:04.560"/>
+    <entry producer="producer41" in="00:00:01.600" out="00:00:04.560"/>
     <entry producer="tractor4" in="00:00:00.000" out="00:00:01.960"/>
-    <entry producer="producer39" in="00:00:02.000" out="00:00:04.200"/>
+    <entry producer="producer42" in="00:00:02.000" out="00:00:04.200"/>
     <entry producer="tractor5" in="00:00:00.000" out="00:00:01.520"/>
-    <entry producer="producer40" in="00:00:03.080" out="00:00:06.640"/>
+    <entry producer="producer43" in="00:00:03.080" out="00:00:06.640"/>
     <entry producer="tractor6" in="00:00:00.000" out="00:00:01.640"/>
-    <entry producer="producer41" in="00:00:01.680" out="00:00:04.240"/>
+    <entry producer="producer44" in="00:00:01.680" out="00:00:04.240"/>
     <entry producer="tractor7" in="00:00:00.000" out="00:00:01.600"/>
-    <entry producer="producer42" in="00:00:01.640" out="00:00:04.440"/>
+    <entry producer="producer45" in="00:00:01.640" out="00:00:04.440"/>
     <entry producer="tractor8" in="00:00:00.000" out="00:00:01.360"/>
-    <entry producer="producer43" in="00:00:01.400" out="00:00:04.840"/>
+    <entry producer="producer46" in="00:00:01.400" out="00:00:04.840"/>
     <entry producer="tractor9" in="00:00:00.000" out="00:00:01.600"/>
-    <entry producer="producer44" in="00:00:01.640" out="00:00:07.040"/>
-    <entry producer="producer45" in="00:00:00.000" out="00:00:06.240"/>
-    <entry producer="producer46" in="00:00:00.000" out="00:00:02.760"/>
+    <entry producer="producer47" in="00:00:01.640" out="00:00:07.040"/>
+    <entry producer="producer48" in="00:00:00.000" out="00:00:06.240"/>
+    <entry producer="producer49" in="00:00:00.000" out="00:00:02.760"/>
     <entry producer="tractor10" in="00:00:00.000" out="00:00:01.640"/>
-    <entry producer="producer47" in="00:00:01.680" out="00:00:06.080"/>
+    <entry producer="producer50" in="00:00:01.680" out="00:00:06.080"/>
     <entry producer="tractor11" in="00:00:00.000" out="00:00:01.840"/>
-    <entry producer="producer48" in="00:00:01.880" out="00:00:29.000"/>
-    <blank length="00:00:09.440"/>
-    <entry producer="producer49" in="00:00:24.640" out="00:00:59.480"/>
-    <entry producer="producer50" in="00:01:29.320" out="00:01:51.240"/>
-    <entry producer="producer51" in="00:02:13.800" out="00:02:22.000"/>
-    <entry producer="producer52" in="00:02:48.760" out="00:03:01.760"/>
+    <entry producer="producer51" in="00:00:01.880" out="00:00:29.000"/>
+    <entry producer="producer52" in="00:00:24.640" out="00:00:59.480"/>
+    <entry producer="producer53" in="00:01:29.320" out="00:01:51.240"/>
+    <entry producer="producer54" in="00:02:13.800" out="00:02:22.000"/>
+    <entry producer="producer55" in="00:02:48.760" out="00:03:01.760"/>
     <entry producer="tractor12" in="00:00:00.000" out="00:00:02.040"/>
-    <entry producer="producer53" in="00:00:02.080" out="00:00:05.320"/>
+    <entry producer="producer56" in="00:00:02.080" out="00:00:05.320"/>
     <entry producer="tractor13" in="00:00:00.000" out="00:00:01.800"/>
-    <entry producer="producer54" in="00:00:01.840" out="00:00:03.400"/>
+    <entry producer="producer57" in="00:00:01.840" out="00:00:03.400"/>
     <entry producer="tractor14" in="00:00:00.000" out="00:00:01.600"/>
-    <entry producer="producer55" in="00:00:01.640" out="00:00:02.920"/>
+    <entry producer="producer58" in="00:00:01.640" out="00:00:02.920"/>
     <entry producer="tractor15" in="00:00:00.000" out="00:00:01.480"/>
-    <entry producer="producer56" in="00:00:01.520" out="00:00:08.360"/>
+    <entry producer="producer59" in="00:00:01.520" out="00:00:08.360"/>
     <entry producer="tractor16" in="00:00:00.000" out="00:00:01.680"/>
-    <entry producer="producer57" in="00:00:01.720" out="00:00:03.000"/>
+    <entry producer="producer60" in="00:00:01.720" out="00:00:03.000"/>
     <entry producer="tractor17" in="00:00:00.000" out="00:00:01.400"/>
-    <entry producer="producer58" in="00:00:01.440" out="00:00:03.000"/>
+    <entry producer="producer61" in="00:00:01.440" out="00:00:03.000"/>
     <entry producer="tractor18" in="00:00:00.000" out="00:00:01.400"/>
-    <entry producer="producer59" in="00:00:01.440" out="00:00:02.640"/>
+    <entry producer="producer62" in="00:00:01.440" out="00:00:02.640"/>
     <entry producer="tractor19" in="00:00:00.000" out="00:00:01.760"/>
-    <entry producer="producer60" in="00:00:01.800" out="00:00:03.200"/>
+    <entry producer="producer63" in="00:00:01.800" out="00:00:03.200"/>
     <entry producer="tractor20" in="00:00:00.000" out="00:00:01.200"/>
-    <entry producer="producer61" in="00:00:01.240" out="00:00:02.760"/>
+    <entry producer="producer64" in="00:00:01.240" out="00:00:02.760"/>
     <entry producer="tractor21" in="00:00:00.000" out="00:00:01.640"/>
-    <entry producer="producer62" in="00:00:01.680" out="00:00:04.120"/>
-    <entry producer="producer63" in="00:00:00.000" out="00:00:02.440"/>
+    <entry producer="producer65" in="00:00:01.680" out="00:00:04.120"/>
+    <entry producer="producer66" in="00:00:00.000" out="00:00:02.440"/>
     <entry producer="tractor22" in="00:00:00.000" out="00:00:01.960"/>
-    <entry producer="producer65" in="00:00:02.880" out="00:00:19.000"/>
+    <entry producer="producer68" in="00:00:02.880" out="00:00:19.000"/>
     <entry producer="tractor23" in="00:00:00.000" out="00:00:02.040"/>
-    <entry producer="producer66" in="00:00:48.760" out="00:00:55.280"/>
+    <entry producer="producer69" in="00:00:48.760" out="00:00:55.280"/>
+    <entry producer="producer70" in="00:00:00.000" out="00:00:09.080"/>
+    <entry producer="producer71" in="00:00:09.120" out="00:00:09.160"/>
   </playlist>
-  <tractor id="tractor24" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:04:47.760">
+  <producer id="producer72" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.440">
+    <property name="length">2612</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">c44071066a1805cf39b6813704407731</property>
+    <property name="shotcut:caption">Mr_Sunny_Face.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Mr_Sunny_Face.mp3</property>
+    <filter id="filter20" out="00:01:44.440">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-20</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer73" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.440">
+    <property name="length">2612</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">c44071066a1805cf39b6813704407731</property>
+    <property name="shotcut:caption">Mr_Sunny_Face.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Mr_Sunny_Face.mp3</property>
+    <filter id="filter21" out="00:01:04.480">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-20</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer74" title="Anonymous Submission" in="00:00:00.000" out="00:01:44.440">
+    <property name="length">2612</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/audio/Mr_Sunny_Face.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">c44071066a1805cf39b6813704407731</property>
+    <property name="shotcut:caption">Mr_Sunny_Face.mp3</property>
+    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\audio\Mr_Sunny_Face.mp3</property>
+    <filter id="filter22" in="00:01:04.520" out="00:01:09.200">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-20;00:00:04.000=-50;00:00:04.680=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer72" in="00:00:00.000" out="00:01:44.440"/>
+    <blank length="00:01:53.760"/>
+    <entry producer="producer73" in="00:00:00.000" out="00:01:04.480"/>
+    <entry producer="producer74" in="00:01:04.520" out="00:01:09.200"/>
+  </playlist>
+  <tractor id="tractor24" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:04:47.520">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
     <track producer="background"/>
     <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
     <transition id="transition48">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1663,6 +1872,13 @@
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="disable">1</property>
+    </transition>
+    <transition id="transition50">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
     </transition>
   </tractor>
 </mlt>
