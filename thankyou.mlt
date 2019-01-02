@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_US" version="6.13.0" title="Shotcut version 18.12.23" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:00:02.560">
+    <property name="length">65</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/clip/duong di/20181222_064009_duong di 3 - intro.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">356195cc0cb6f9ee237b92396ffe27f2</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/thankyou.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5869c8a269023fc99c5313a6f3299b09</property>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/nguonhinh.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">994a6e9a8e30bbc58313a41ca148e950</property>
+  </producer>
+  <playlist id="main_bin" title="Shotcut version 18.12.23">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:02.560"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:04.440"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:04.440"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:04.440"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:30.400">
+    <property name="length">761</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:30.400"/>
+  </playlist>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter0" out="00:00:07.040">
+      <property name="argument">THANK YOU FOR WATCHING!!</property>
+      <property name="geometry">00:00:00.000=0 600 1920 1080 1;00:00:04.440=0 0 1920 1080 1</property>
+      <property name="family">Cambria Math</property>
+      <property name="size">83</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">50</property>
+    </filter>
+    <filter id="filter1" out="00:00:07.040">
+      <property name="start">1</property>
+      <property name="level">00:00:06.080=1;00:00:07.040=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+      <property name="geometry">00:00:06.080=0 0 0 0 1;00:00:07.040=0 0 0 0 1</property>
+    </filter>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter2" in="00:00:05.000" out="00:00:06.720">
+      <property name="argument">XIN CHÂN THÀNH CẢM ƠN</property>
+      <property name="geometry">0 0 1920 1080 1</property>
+      <property name="family">Cambria Math</property>
+      <property name="size">83</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">50</property>
+    </filter>
+    <filter id="filter3" in="00:00:05.000" out="00:00:06.720">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+      <property name="geometry">00:00:00.000=0 0 0 0 1;00:00:00.960=0 0 0 0 1</property>
+    </filter>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter4" in="00:00:07.400" out="00:00:09.200">
+      <property name="argument">XIN CHÂN THÀNH CẢM ƠN</property>
+      <property name="geometry">0 0 1920 1080 1</property>
+      <property name="family">Cambria Math</property>
+      <property name="size">83</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">50</property>
+    </filter>
+    <filter id="filter5" in="00:00:07.400" out="00:00:09.200">
+      <property name="start">1</property>
+      <property name="level">00:00:00.840=1;00:00:01.800=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+      <property name="geometry">00:00:03.240=0 0 0 0 1;00:00:04.200=0 0 0 0 1</property>
+    </filter>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/thankyou.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5869c8a269023fc99c5313a6f3299b09</property>
+    <filter id="filter6" out="00:00:04.440">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter7" out="00:00:04.440">
+      <property name="start">1</property>
+      <property name="level">00:00:03.480=1;00:00:04.440=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/nguonhinh.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">994a6e9a8e30bbc58313a41ca148e950</property>
+    <filter id="filter8" out="00:00:04.440">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter9" out="00:00:04.440">
+      <property name="start">1</property>
+      <property name="level">00:00:03.480=1;00:00:04.440=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter10" out="00:00:03.440">
+      <property name="argument">Edit By Uno</property>
+      <property name="geometry">0 0 1920 1080 1</property>
+      <property name="family">Cambria</property>
+      <property name="size">66</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">40</property>
+    </filter>
+    <filter id="filter11" out="00:00:03.440">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+      <property name="geometry">00:00:00.000=0 0 0 0 1;00:00:00.960=0 0 0 0 1</property>
+    </filter>
+    <filter id="filter12" out="00:00:03.440">
+      <property name="start">1</property>
+      <property name="level">00:00:02.480=1;00:00:03.440=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter13" out="00:00:03.800">
+      <property name="argument">...</property>
+      <property name="geometry">0 0 1920 1080 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">50</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">30</property>
+    </filter>
+  </producer>
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">360000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/utils/black.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b39bb6079691283ecb75ff439d39b34d</property>
+    <filter id="filter14" in="00:00:03.840" out="00:00:07.280">
+      <property name="argument">Hậu Chương Trình</property>
+      <property name="geometry">0 0 1920 1080 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">50</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">30</property>
+    </filter>
+    <filter id="filter15" in="00:00:03.840" out="00:00:07.280">
+      <property name="start">1</property>
+      <property name="level">00:00:02.480=1;00:00:03.440=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+      <property name="geometry">00:00:02.480=0 0 0 0 1;00:00:03.440=0 0 0 0 1</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:07.040"/>
+    <entry producer="producer5" in="00:00:05.000" out="00:00:06.720"/>
+    <entry producer="producer6" in="00:00:07.400" out="00:00:09.200"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:04.440"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:04.440"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:03.440"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:03.800"/>
+    <entry producer="producer11" in="00:00:03.840" out="00:00:07.280"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:00:30.400">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist1"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
