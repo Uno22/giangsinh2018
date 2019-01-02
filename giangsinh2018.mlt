@@ -1188,17 +1188,17 @@
     <entry producer="producer80" in="00:00:00.000" out="00:00:03.802"/>
     <entry producer="producer81" in="00:00:00.000" out="00:00:30.418"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:07:20.146">
-    <property name="length">13197</property>
+  <producer id="black" in="00:00:00.000" out="00:06:49.730">
+    <property name="length">12285</property>
     <property name="eof">pause</property>
-    <property name="resource">black</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\shortcut\giangsinh2018/black</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgb24</property>
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:07:20.146"/>
+    <entry producer="black" in="00:00:00.000" out="00:06:49.730"/>
   </playlist>
   <producer id="producer82" title="Anonymous Submission" in="00:00:00.000" out="00:00:15.576">
     <property name="length">468</property>
@@ -3500,22 +3500,6 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <property name="shotcut:caption">20181222_162112_banner.mp4 (0.3x)</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\Chuong trinh chinh\20181222_162112_banner.mp4</property>
   </producer>
-  <producer id="producer168" title="Anonymous Submission" in="00:00:00.000" out="00:00:30.418">
-    <property name="length">913</property>
-    <property name="eof">pause</property>
-    <property name="resource">C:/Users/truong.lathanh/Downloads/NUMX/GiaLai/shortcut/thankyou.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1.18519</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">9bcf5c436729ae3c086c6daf9b3e63ef</property>
-    <property name="shotcut:caption">thankyou.mp4</property>
-    <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\shortcut\thankyou.mp4</property>
-  </producer>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">intro video</property>
@@ -3653,7 +3637,6 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <entry producer="producer165" in="00:00:02.035" out="00:00:16.143"/>
     <entry producer="tractor52" in="00:00:00.000" out="00:00:02.235"/>
     <entry producer="producer167" in="00:00:02.268" out="00:00:09.873"/>
-    <entry producer="producer168" in="00:00:00.000" out="00:00:30.418"/>
   </playlist>
   <producer id="producer175" title="Anonymous Submission" in="00:00:00.000" out="03:59:60.003">
     <property name="length">431738</property>
@@ -3773,7 +3756,7 @@ HUYỆN IA PA, TỈNH GiA LAI</property>
     <blank length="00:06:41.759"/>
     <entry producer="producer178" in="00:00:00.000" out="00:00:03.969"/>
   </playlist>
-  <tractor id="tractor53" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:07:20.146">
+  <tractor id="tractor53" title="Shotcut version 18.12.23" global_feed="1" in="00:00:00.000" out="00:06:49.730">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
