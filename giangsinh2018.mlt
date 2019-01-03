@@ -1247,7 +1247,7 @@
   <producer id="black" in="00:00:00.000" out="00:06:49.730">
     <property name="length">12285</property>
     <property name="eof">pause</property>
-    <property name="resource">black</property>
+    <property name="resource">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\shortcut\giangsinh2018/black</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgb24</property>
@@ -1275,83 +1275,6 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">20181223_120337_duong di 5.mp4 (0.8x)</property>
     <property name="shotcut:detail">C:\Users\truong.lathanh\Downloads\NUMX\GiaLai\clip\duong di\20181223_120337_duong di 5.mp4</property>
-    <filter id="filter0" out="00:00:07.972">
-      <property name="mlt_service">avfilter.hue</property>
-      <property name="av.h">0</property>
-      <property name="av.b">-1</property>
-      <property name="av.s">1</property>
-      <property name="disable">0</property>
-    </filter>
-    <filter id="filter1" out="00:00:07.972">
-      <property name="argument">NHỮNG ƯỚC MƠ XANH
-</property>
-      <property name="geometry">0 -135 1280 720 1</property>
-      <property name="family">.VnMystical</property>
-      <property name="size">50</property>
-      <property name="weight">500</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#ff000000</property>
-      <property name="pad">0</property>
-      <property name="halign">center</property>
-      <property name="valign">middle</property>
-      <property name="outline">0</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">1</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="shotcut:pointSize">30</property>
-      <property name="disable">0</property>
-    </filter>
-    <filter id="filter2" out="00:00:07.972">
-      <property name="argument">CHƯƠNG TRÌNH
-ÁO ẤM MÙA ĐÔNG</property>
-      <property name="geometry">0 -60 1280 720 1</property>
-      <property name="family">Cooper Std Black</property>
-      <property name="size">66</property>
-      <property name="weight">870</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#ff000000</property>
-      <property name="pad">0</property>
-      <property name="halign">center</property>
-      <property name="valign">middle</property>
-      <property name="outline">0</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">1</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="shotcut:pointSize">40</property>
-      <property name="disable">0</property>
-    </filter>
-    <filter id="filter3" out="00:00:07.972">
-      <property name="argument">22/12/2018
-XÃ IA K ĐĂM,
-HUYỆN IA PA, TỈNH GiA LAI</property>
-      <property name="geometry">0 90 1280 720 1</property>
-      <property name="family">Meiryo UI</property>
-      <property name="size">41</property>
-      <property name="weight">750</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#ff000000</property>
-      <property name="pad">0</property>
-      <property name="halign">center</property>
-      <property name="valign">middle</property>
-      <property name="outline">0</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">1</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="shotcut:pointSize">25</property>
-      <property name="disable">0</property>
-    </filter>
   </producer>
   <producer id="producer87" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.937">
     <property name="length">179</property>
